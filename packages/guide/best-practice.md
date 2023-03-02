@@ -1,6 +1,6 @@
-# Best Practice
+# 最佳实践
 
-### Destructuring
+### 解构（Destructuring）
 
 Most of the functions in VueUse return an **object of refs** that you can use [ES6's object destructure](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment) syntax on to take what you need. For example:
 

@@ -3,12 +3,12 @@ import { addonCategoryNames, categoryNames, coreCategoryNames, metadata } from '
 import { currentVersion, versions } from '../../meta/versions'
 
 const Guide = [
-  { text: 'Get Started', link: '/guide/' },
-  { text: 'Best Practice', link: '/guide/best-practice' },
-  { text: 'Configurations', link: '/guide/config' },
-  { text: 'Components', link: '/guide/components' },
+  { text: '起步', link: '/guide/' },
+  { text: '最佳实践', link: '/guide/best-practice' },
+  { text: '配置', link: '/guide/config' },
+  { text: '组件', link: '/guide/components' },
   { text: 'Contributing', link: '/contributing' },
-  { text: 'Guidelines', link: '/guidelines' },
+  { text: '使用说明', link: '/guidelines' },
 ]
 
 const CoreCategories = coreCategoryNames.map(c => ({
