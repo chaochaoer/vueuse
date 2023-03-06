@@ -49,9 +49,9 @@ const DefaultSideBar = [
 const FunctionsSideBar = getFunctionsSideBar()
 
 export default defineConfig({
-  title: 'VueUse',
-  description: 'Collection of essential Vue Composition Utilities',
-  lang: 'en-US',
+  title: 'VueUse中文文档',
+  description: '基与Vue Composition API的常用函数集合',
+  lang: 'ch-zn',
   ignoreDeadLinks: true,
 
   markdown: {
@@ -95,7 +95,7 @@ export default defineConfig({
         ],
       },
       {
-        text: 'Functions',
+        text: '函数',
         items: [
           {
             text: '',
@@ -104,16 +104,16 @@ export default defineConfig({
               { text: 'Recent Updated', link: '/functions#sort=updated' },
             ],
           },
-          { text: 'Core', items: CoreCategories },
-          { text: 'Add-ons', items: AddonCategories },
+          { text: '核心', items: CoreCategories },
+          { text: '插件', items: AddonCategories },
         ],
       },
       {
-        text: 'Add-ons',
+        text: '插件',
         link: '/add-ons',
       },
       {
-        text: 'Playground',
+        text: '演练场',
         link: 'https://play.vueuse.org',
       },
       {

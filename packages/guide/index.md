@@ -61,7 +61,7 @@ export default {
 }
 ```
 
-然后你可以在Nuxt项目的任何地方使用VueUse函数。例如:
+然后你可以在Nuxt项目的任何地方使用VueUse。例如:
 
 ```html
 <script setup lang="ts">
@@ -73,7 +73,7 @@ const { x, y } = useMouse()
 </template>
 ```
 
-## Usage Example
+## 用法用例
 
 在@vueuse/core中导入你需要的函数
 
