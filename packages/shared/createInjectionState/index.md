@@ -4,6 +4,8 @@ category: State
 
 # createInjectionState
 
+创建可以注入到组件中的全局状态。
+
 Create global state that can be injected into components.
 
 

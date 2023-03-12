@@ -141,11 +141,16 @@ export default defineConfig({
         ],
 
       },
+      {
+        text: '关于本站',
+        link: '/about-me',
+      },
     ],
     sidebar: {
       '/guide/': DefaultSideBar,
       '/contributing': DefaultSideBar,
       '/add-ons': DefaultSideBar,
+      '/about-me': DefaultSideBar,
       '/ecosystem': DefaultSideBar,
       '/guidelines': DefaultSideBar,
       '/export-size': DefaultSideBar,

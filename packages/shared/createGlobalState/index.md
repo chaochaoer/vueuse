@@ -5,6 +5,8 @@ related: createSharedComposable
 
 # createGlobalState
 
+将状态保存全局作用域中，以便跨Vue实例复用。
+
 Keep states in the global scope to be reusable across Vue instances.
 
 ## Usage

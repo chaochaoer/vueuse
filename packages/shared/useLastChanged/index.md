@@ -4,6 +4,8 @@ category: State
 
 # useLastChanged
 
+记录最后一次更改的时间戳
+
 Records the timestamp of the last change
 
 ## Usage

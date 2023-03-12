@@ -5,6 +5,8 @@ related: createGlobalState
 
 # createSharedComposable
 
+让一个钩子函数可用于多个Vue实例中。
+
 Make a composable function usable with multiple Vue instances.
 
 ## Usage

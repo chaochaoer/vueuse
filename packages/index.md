@@ -6,7 +6,7 @@ hero:
   name: VueUse
   # text: Collection of Vue Composition Utilities
   # tagline: Collection of Essential Vue Composition Utilities
-  text: 基于Vue组合式API的工具集
+  text: 基于Vue组合式API的实用工具集
   image:
     src: /favicon.svg
     alt: VueUse
@@ -15,7 +15,7 @@ hero:
       text: 起步
       link: /guide/
     - theme: alt
-      text: 各种函数
+      text: 函数
       link: /functions
     - theme: alt
       text: 插件
@@ -47,7 +47,7 @@ features:
     details: 完全可用于服务器端渲染(rendering/generation)
     icon: 🔋
   - title: 可交互样例
-    details: Documentation of functions also come with interactive demos!
+    details: 函数的文档也带有交互式演示!
     icon: 🎪
   - title: 插件
     details: 支持Router, Firebase, RxJS等插件。

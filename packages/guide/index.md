@@ -4,6 +4,8 @@
 
 VueUse是一款基于[组合式API](https://v3.vuejs.org/guide/composition-api-introduction.html)的函数集合。在继续阅读之前，我们假设你已经熟悉了[组合式API](https://v3.vuejs.org/guide/composition-api-introduction.html) 的基本思想.
 
+VueUse is a collection of utility functions based on [Composition API](https://v3.vuejs.org/guide/composition-api-introduction.html). We assume you are already familiar with the basic ideas of [Composition API](https://v3.vuejs.org/guide/composition-api-introduction.html) before you continue.
+
 ## 安装
 
 > 🎩 From v4.0, it works for Vue 2 & 3 **within a single package** by the power of [vue-demi](https://github.com/vueuse/vue-demi)!
@@ -15,6 +17,8 @@ npm i @vueuse/core
 [Add ons](/add-ons.html) | [Nuxt Module](/guide/index.html#nuxt)
 
 > 从v6.0开始，VueUse要求 `vue`版本 >= v3.2 或者 `@vue/composition-api`版本 >= v1.1
+
+> From v6.0, VueUse requires `vue` >= v3.2 or `@vue/composition-api` >= v1.1
 
 ###### Demos
 
@@ -33,9 +37,13 @@ npm i @vueuse/core
 
 会暴露一个全局变量 `window.VueUse`
 
+It will be exposed to global as `window.VueUse`
+
 ### Nuxt
 
 从v7.2.0开始，我们发布了一个Nuxt模块来支持Nuxt 3和Nuxt Bridge的自动导入
+
+From v7.2.0, we shipped a Nuxt module to enable auto importing for Nuxt 3 and Nuxt Bridge.
 
 ```bash
 npm i -D @vueuse/nuxt @vueuse/core
@@ -63,6 +71,8 @@ export default {
 
 然后你可以在Nuxt项目的任何地方使用VueUse。例如:
 
+And then use VueUse function anywhere in your Nuxt app. For example:
+
 ```html
 <script setup lang="ts">
 const { x, y } = useMouse()
@@ -76,6 +86,8 @@ const { x, y } = useMouse()
 ## 用法用例
 
 在@vueuse/core中导入你需要的函数
+
+Simply importing the functions you need from `@vueuse/core`
 
 ```ts
 import { useLocalStorage, useMouse, usePreferredDark } from '@vueuse/core'
@@ -103,3 +115,5 @@ export default {
 ```
 
 更多细节请参考 [functions list](/functions)。
+
+Refer to [functions list](/functions) for more details.
