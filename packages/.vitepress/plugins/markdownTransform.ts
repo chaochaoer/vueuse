@@ -75,10 +75,10 @@ export async function getFunctionMarkdown(pkg: string, name: string) {
     const code = `\`\`\`typescript\n${types.trim()}\n\`\`\``
     typingSection = types.length > 1000
       ? `
-## Type Declarations
+## 类型声明(Type Declarations)
 
 <details>
-<summary op50 italic cursor-pointer select-none>Show Type Declarations</summary>
+<summary op50 italic cursor-pointer select-none>显示类型声明</summary>
 
 ${code}
 
@@ -97,12 +97,12 @@ ${code}
 
   const sourceSection = `## Source\n\n${links}\n`
   const ContributorsSection = `
-## Contributors
+## 贡献者(Contributors)
 
 <Contributors fn="${name}" />
   `
   const changelogSection = `
-## Changelog
+## 日志(Changelog)
 
 <Changelog fn="${name}" />
 `

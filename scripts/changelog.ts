@@ -46,7 +46,6 @@ export async function getContributorsAt(path: string) {
       .split('\n')
       .map(i => i.slice(1, -1).split('|') as [string, string])
     const map: Record<string, ContributorInfo> = {}
-
     list
       .filter(i => i[1])
       .forEach((i) => {

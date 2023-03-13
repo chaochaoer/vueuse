@@ -12,11 +12,11 @@ import { ChangeLog } from './.vitepress/plugins/changelog'
 import { Contributors } from './.vitepress/plugins/contributors'
 
 export default defineConfig(async () => {
-  const [changeLog, contributions] = await Promise.all([
+  let [changeLog, contributions] = await Promise.all([
     getChangeLog(process.env.CI ? 1000 : 100),
     getFunctionContributors(),
   ])
-
+  contributions = {}
   return {
     server: {
       hmr: {

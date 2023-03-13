@@ -1,9 +1,17 @@
-# Contributing
+# 贡献(Contributing)
+
+感谢您对这个项目感兴趣！
 
 Thanks for being interested in contributing to this project!
 
+> **警告**: **⚠️ 放缓新函数更新**
+
 > **Warning**: **⚠️ Slowing down new functions**
+
 >
+
+> 由于VueUse用户不断增长，我们收到了大量的feature requests和PR。维护这个项目变得越来越难，最近有点超出了我们的能力。将来，**我们可能会放慢接受新特性的速度，优先考虑现有功能的稳定性和质量。VueUse的新函数可能不被接受**。如果你有了一些新的想法，我们建议你先把它们放在你的代码库中，而不是向VueUse提出。你可以迭代几次，看看它们怎么满足您的需求，以及如何将它们泛化。如果你 **真的** 认为它们对社区有用，你可以创建PR并附带你的使用场景，我们仍然非常愿意倾听和讨论。谢谢您的理解。
+
 > Due to the growing audience of VueUse, we received a huge amount of feature requests and pull requests. It's become harder and harder and recently a bit beyond our capacity to maintain the project. In the near future, **we could like slowing down on accepting new features and prioritize the stability and quality of existing functions. New functions to VueUse may not be accepted**. If you come up some new ideas, we advice you to have them in your codebase first instead of proposing to VueUse. You may iterate them a few time and see how them suite your needs and how them can be generalized. If you **really** believe they are useful to the community, you can create PR with your usercases, we are still happy to hear and discuss. Thank you for your understanding.
 
 ## Development 
