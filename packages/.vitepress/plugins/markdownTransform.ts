@@ -134,7 +134,7 @@ const Demo = defineAsyncComponent(() => import('./${demoPath}'))
 import Demo from \'./${demoPath}\'
 </script>
 
-## Demo
+## 例子
 
 <DemoContainer>
 <p class="demo-source-link"><a href="${URL}/${demoPath}" target="_blank">source</a></p>

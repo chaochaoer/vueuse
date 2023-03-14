@@ -7,7 +7,7 @@ const Guide = [
   { text: '最佳实践', link: '/guide/best-practice' },
   { text: '配置', link: '/guide/config' },
   { text: '组件', link: '/guide/components' },
-  { text: 'Contributing', link: '/contributing' },
+  { text: '贡献', link: '/contributing' },
   { text: '使用说明', link: '/guidelines' },
 ]
 
@@ -39,8 +39,8 @@ const Learn = [
 ]
 
 const DefaultSideBar = [
-  { text: 'Guide', items: Guide },
-  { text: 'Core Functions', items: CoreCategories },
+  { text: '指南', items: Guide },
+  { text: '核心函数', items: CoreCategories },
   { text: 'Add-ons', items: AddonCategories },
   { text: 'Learn', items: Learn },
   { text: 'Links', items: Links },
@@ -87,9 +87,9 @@ export default defineConfig({
 
     nav: [
       {
-        text: 'Guide',
+        text: '指南',
         items: [
-          { text: 'Guide', items: Guide },
+          { text: '指南', items: Guide },
           { text: 'Learn', items: Learn },
           { text: 'Links', items: Links },
         ],

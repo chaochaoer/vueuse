@@ -14,7 +14,7 @@ Thanks for being interested in contributing to this project!
 
 > Due to the growing audience of VueUse, we received a huge amount of feature requests and pull requests. It's become harder and harder and recently a bit beyond our capacity to maintain the project. In the near future, **we could like slowing down on accepting new features and prioritize the stability and quality of existing functions. New functions to VueUse may not be accepted**. If you come up some new ideas, we advice you to have them in your codebase first instead of proposing to VueUse. You may iterate them a few time and see how them suite your needs and how them can be generalized. If you **really** believe they are useful to the community, you can create PR with your usercases, we are still happy to hear and discuss. Thank you for your understanding.
 
-## Development 
+## 开发(Development)
 
 ### Setup
 
@@ -34,41 +34,56 @@ We use VitePress for rapid development and documenting. You can start it locally
 pnpm dev
 ```
 
-## Contributing
+## 贡献(Contributing)
 
-### Existing functions
+### 现有的函数(Existing functions)
+
+可以随意增强现有的函数。但请尽量不要引入破坏性的变化。
 
 Feel free to enhance the existing functions. Please try not to introduce breaking changes.
 
-### New functions
+### 新函数(New functions)
 
 添加新函数的注意事项
 
 There are some notes for adding new functions
 
-- 在开始工作之前，最好先提出一个问题进行讨论。
+- 在开始工作之前，最好先开个issue进行讨论。
 - Before you start working, it's better to open an issue to discuss first.
+- 实现应该放在“packages/core”文件夹下，并在“index.ts”中公开。
 - The implementation should be placed under `packages/core` as a folder and exposing in `index.ts`
+- 在 `core` 包中，尽量不要引入第三方依赖项，因为这个包以尽可能轻量为目标。
 - In the `core` package, try not to introduce 3rd-party dependencies as this package is aimed to be as lightweight as possible.
+- 如果您想引入第三方依赖，请放入@vueuse/integrations或创建一个新的插件。
 - If you'd like to introduce 3rd-party dependencies, please contribute to @vueuse/integrations or create a new add-on.
+- 你可以在 `packages/core/_template/` 下找到函数的模板，详细信息见 [Function Folder](#function-folder) 
 - You can find the function template under `packages/core/_template/`, details explained in the [Function Folder](#function-folder) section.
+- 在为函数编写文档时，`<!--FOOTER_STARTS-->` 和 `<!--FOOTER_ENDS-->` 将在构建时自动更新，所以不需要更新它们。
 - When writing documentation for your function, the `<!--FOOTER_STARTS-->` and `<!--FOOTER_ENDS-->` will be automatically updated at build time, so don't feel the need to update them.
 
+> 请注意，不需要更新 `index.ts`。它是自动生成的。
 > Please note you don't need to update packages' `index.ts`. They are auto-generated.
 
-### New add-ons
+### 新的插件(New add-ons)
 
+新的插件是非常受欢迎的
 New add-ons are greatly welcome!
-
+- 在 `packages/` 目录下创建一个新文件夹，并将其命名为你的插件名称。
 - Create a new folder under `packages/`, name it as your add-on name. 
+- 在 `scripts/packages.ts` 中添加插件详情
 - Add add-on details in `scripts/packages.ts`
+- 在这个文件夹下创建 `README.md` 
 - Create `README.md` under that folder.
+- 像在核心包中那样添加函数
 - Add functions as you would do to the core package.
+- commit和提交pr
 - Commit and submit as a PR.
 
-## Project Structure
+## 项目结构(Project Structure)
 
 ### Monorepo
+
+使用monorepo进行包管理
 
 We use monorepo for multiple packages
 
@@ -80,10 +95,13 @@ packages
   [...addons]/    - add-ons named
 ```
 
-### Function Folder
+### 函数文件夹(Function Folder)
+
+函数文件夹通常包含以下4个文件:
 
 A function folder typically contains these 4 files:
 
+> 在 `packages/core/_template/` 可以找到模板
 > You can find the template under `packages/core/_template/`
 
 ```bash
@@ -92,31 +110,41 @@ demo.vue            # documentation demo
 index.test.ts       # vitest unit testing
 index.md            # documentation
 ```
+在 `index.ts` 中导出带有名字的函数
 
 for `index.ts` you should export the function with names.
 
 ```ts
+// 正确
 // DO
 export { useMyFunction }
 
+// 不正确
 // DON'T
 export default useMyFunction
 ```
+ `index.md` 中的的第一句话将在函数列表中以函数简介的形式展示，所以尽量保持简短和清晰。
 
 for `index.md` the first sentence will be displayed as the short intro in the function list, so try to keep it brief and clear.
 
 ```md
 # useMyFunction
-
+这是介绍。详细的描述……
 This will be the intro. The detail descriptions...
 ```
 
+阅读更多关于 [使用说明](https://vueuse.org/guidelines).
+
 Read more about the [guidelines](https://vueuse.org/guidelines).
 
-## Code Style
+## 代码风格(Code Style)
+
+只要安装了开发依赖，就不必担心代码风格。Git hooks会在提交时为你格式化和修复代码风格。
 
 Don't worry about the code style as long as you install the dev dependencies. Git hooks will format and fix them for you on committing.
 
-## Thanks
+## 致谢(Thanks)
+
+再次感谢您对这个项目感兴趣!你太棒了!
 
 Thank you again for being interested in this project! You are awesome!
