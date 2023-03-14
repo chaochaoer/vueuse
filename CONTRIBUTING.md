@@ -18,11 +18,15 @@ Thanks for being interested in contributing to this project!
 
 ### Setup
 
+将此仓库复制到本地，并安装依赖。
+
 Clone this repo to your local machine and install the dependencies.
 
 ```bash
 pnpm install
 ```
+
+使用VitePress进行快速开发。你可以在本地启动它
 
 We use VitePress for rapid development and documenting. You can start it locally by
 
@@ -38,8 +42,11 @@ Feel free to enhance the existing functions. Please try not to introduce breakin
 
 ### New functions
 
+添加新函数的注意事项
+
 There are some notes for adding new functions
 
+- 在开始工作之前，最好先提出一个问题进行讨论。
 - Before you start working, it's better to open an issue to discuss first.
 - The implementation should be placed under `packages/core` as a folder and exposing in `index.ts`
 - In the `core` package, try not to introduce 3rd-party dependencies as this package is aimed to be as lightweight as possible.
