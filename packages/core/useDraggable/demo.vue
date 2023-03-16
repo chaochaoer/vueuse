@@ -18,7 +18,7 @@ const { x, y, style } = useDraggable(el, {
 <template>
   <div>
     <p italic op50 text-center>
-      Check the floating boxes
+      看浮动的盒子
     </p>
     <div
       ref="el"
@@ -31,7 +31,7 @@ const { x, y, style } = useDraggable(el, {
     >
       👋 Drag me!
       <div class="text-sm opacity-50">
-        I am at {{ Math.round(x) }}, {{ Math.round(y) }}
+        我的位置 {{ Math.round(x) }}, {{ Math.round(y) }}
       </div>
     </div>
 
@@ -46,9 +46,9 @@ const { x, y, style } = useDraggable(el, {
       storage-key="vueuse-draggable-pos"
       storage-type="session"
     >
-      Renderless component
+      无渲染组件
       <div class="text-xs opacity-50">
-        Position persisted in sessionStorage
+        位置在sessionStorage中持久化
       </div>
       <div class="text-sm opacity-50">
         {{ Math.round(x) }}, {{ Math.round(y) }}
@@ -66,13 +66,13 @@ const { x, y, style } = useDraggable(el, {
       :handle="handle"
     >
       <div ref="handle" class="cursor-move">
-        👋 Drag here!
+        👋 拖拽这里!
       </div>
       <div class="text-xs opacity-50">
-        Handle that triggers the drag event
+        拖拽事件会被触发
       </div>
       <div class="text-sm opacity-50">
-        I am at {{ Math.round(x) }}, {{ Math.round(y) }}
+        我的位置 {{ Math.round(x) }}, {{ Math.round(y) }}
       </div>
     </Draggable>
   </div>

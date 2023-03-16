@@ -20,18 +20,18 @@ watch(data, () => {
 <template>
   <div>
     <p>
-      Supported:
+      支持:
       <b>{{ isSupported }}</b>
     </p>
 
-    <p>Please open this page in at least two tabs</p>
+    <p>请至少在两个Tab中打开此页面</p>
   </div>
 
   <div v-if="isSupported">
     <form @submit.prevent="post(message)">
       <input v-model="message" type="text">
       <button type="submit">
-        Send Message
+        发送消息
       </button>
     </form>
 

@@ -4,6 +4,8 @@ category: Elements
 
 # useElementBounding
 
+让HTML元素的[bounding box](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect) 响应式
+
 Reactive [bounding box](https://developer.mozilla.org/en-US/docs/Web/API/Element/getBoundingClientRect) of an HTML element
 
 ## Usage

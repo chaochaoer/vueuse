@@ -4,6 +4,8 @@ category: Elements
 
 # useIntersectionObserver
 
+响应式监听目标元素的可见性。
+
 Detects that a target element's visibility.
 
 ## Usage

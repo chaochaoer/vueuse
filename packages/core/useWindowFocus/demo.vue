@@ -2,7 +2,7 @@
 import { ref, watch } from 'vue'
 import { useWindowFocus } from '@vueuse/core'
 
-const startMessage = '💡 Click somewhere outside of the document to unfocus.'
+const startMessage = '💡 点击窗口外的某个地方取消窗口聚焦。'
 const message = ref(startMessage)
 const focused = useWindowFocus()
 
@@ -10,7 +10,7 @@ watch(focused, (isFocused) => {
   if (isFocused)
     message.value = startMessage
   else
-    message.value = 'ℹ Tab is unfocused'
+    message.value = 'ℹ 窗口没有聚焦'
 })
 </script>
 

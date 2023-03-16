@@ -4,6 +4,8 @@ category: Elements
 
 # useResizeObserver
 
+监听元素内容和边框尺寸的变化。
+
 Reports changes to the dimensions of an Element's content or the border-box
 
 ## Usage

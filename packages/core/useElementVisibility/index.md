@@ -4,6 +4,8 @@ category: Elements
 
 # useElementVisibility
 
+跟踪元素在视口中的可见性。
+
 Tracks the visibility of an element within the viewport.
 
 ## Usage

@@ -25,14 +25,13 @@ useIntersectionObserver(
     </div>
   </div>
   <div class="text-center">
-    Element
+    元素在视口
     <BooleanDisplay
       :value="isVisible"
       true="inside"
       false="outside"
       class="font-bold"
     />
-    the viewport
   </div>
 </template>
 

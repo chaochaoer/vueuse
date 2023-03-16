@@ -3,7 +3,7 @@ import { ref, watch } from 'vue'
 import { useTimeoutFn } from '@vueuse/shared'
 import { useDocumentVisibility } from '@vueuse/core'
 
-const startMessage = '💡 Minimize the page or switch tab then return'
+const startMessage = '💡  最小化页面或切换标签然后返回'
 const message = ref(startMessage)
 const visibility = useDocumentVisibility()
 
@@ -13,7 +13,7 @@ const timeout = useTimeoutFn(() => {
 
 watch(visibility, (current, previous) => {
   if (current === 'visible' && previous === 'hidden') {
-    message.value = '🎉 Welcome back!'
+    message.value = '🎉 欢迎回来!'
     timeout.start()
   }
 })

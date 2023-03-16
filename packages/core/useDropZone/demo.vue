@@ -23,11 +23,11 @@ const { isOverDropZone } = useDropZone(dropZoneRef, onDrop)
 <template>
   <div class="flex">
     <div class="w-full h-auto relative">
-      <p>Drop files into dropZone</p>
+      <p>文件放入放入区域</p>
       <img src="/favicon.ico" alt="Drop me">
 
       <div ref="dropZoneRef" class="flex flex-col w-full min-h-200px h-auto bg-gray-400/10 justify-center items-center mt-6">
-        <div> isOverDropZone: <BooleanDisplay :value="isOverDropZone" /></div>
+        <div> 文件在放入区: <BooleanDisplay :value="isOverDropZone" /></div>
         <div class="flex flex-wrap justify-center items-center">
           <div v-for="(file, index) in filesData" :key="index" class="w-200px bg-black-200/10 ma-2 pa-6">
             <p>Name: {{ file.name }}</p>

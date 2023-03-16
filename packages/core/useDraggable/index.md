@@ -4,7 +4,7 @@ category: Elements
 
 # useDraggable
 
-Make elements draggable.
+使元素可拖拽。
 
 ## Usage
 

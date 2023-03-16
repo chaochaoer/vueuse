@@ -4,6 +4,8 @@ category: Elements
 
 # useElementSize
 
+元素尺寸大小响应式. [ResizeObserver MDN](https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserver)
+
 Reactive size of an HTML element. [ResizeObserver MDN](https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserver)
 
 ## Usage

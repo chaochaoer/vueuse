@@ -4,6 +4,8 @@ category: Elements
 
 # useDocumentVisibility
 
+响应式跟踪 [`document.visibilityState`](https://developer.mozilla.org/en-US/docs/Web/API/Document/visibilityState)
+
 Reactively track [`document.visibilityState`](https://developer.mozilla.org/en-US/docs/Web/API/Document/visibilityState)
 
 ## Usage
