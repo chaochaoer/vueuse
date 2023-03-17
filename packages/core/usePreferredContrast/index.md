@@ -4,6 +4,8 @@ category: Browser
 
 # usePreferredContrast
 
+响应式 [prefers-contrast](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-contrast) 
+
 Reactive [prefers-contrast](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-contrast) media query.
 
 ## Usage

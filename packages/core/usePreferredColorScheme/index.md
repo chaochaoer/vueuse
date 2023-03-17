@@ -4,6 +4,8 @@ category: Browser
 
 # usePreferredColorScheme
 
+响应式 [prefers-color-scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) 
+
 Reactive [prefers-color-scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) media query.
 
 ## Usage
@@ -18,6 +20,6 @@ const preferredColor = usePreferredColorScheme()
 
 ```html
 <UsePreferredColorScheme v-slot="{ colorScheme }">
-  Preferred Color Scheme: {{ colorScheme }}
+  首选配色方案: {{ colorScheme }}
 <UsePreferredColorScheme>
 ```

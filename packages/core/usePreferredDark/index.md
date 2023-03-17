@@ -4,6 +4,8 @@ category: Browser
 
 # usePreferredDark
 
+响应式深色主题偏好
+
 Reactive dark theme preference.
 
 ## Usage

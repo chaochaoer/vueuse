@@ -23,7 +23,7 @@ const { next } = useCycleList(['dark', 'light', 'cafe', 'contrast', 'auto'], { i
     <span class="ml-2 capitalize">{{ mode }}</span>
   </button>
 
-  <span class="p-4 opacity-50">← Click to change the color mode</span>
+  <span class="p-4 opacity-50">← 点击以更改颜色</span>
 </template>
 
 <style>

@@ -6,7 +6,7 @@ const colorScheme = usePreferredColorScheme()
 
 <template>
   <note class="mb-2">
-    Preferred Color Scheme:
+    首选主题:
   </note>
   <code>{{ colorScheme }}</code>
 </template>

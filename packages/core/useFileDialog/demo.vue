@@ -6,10 +6,10 @@ const { files, open, reset } = useFileDialog()
 
 <template>
   <button type="button" @click="open()">
-    Choose files
+    选择文件
   </button>
   <button type="button" :disabled="!files" @click="reset()">
-    Reset
+    重置
   </button>
   <template v-if="files">
     <p>You have selected: <b>{{ files.length }} files</b></p>

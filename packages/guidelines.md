@@ -1,10 +1,10 @@
 # 使用说明(Guidelines)
 
-下面是VueUse函数的使用说明。你也可以参考着创作你自己的组合函数的。
+<!-- 下面是VueUse函数的使用说明。你也可以参考着创作你自己的组合函数。 -->
 
 Here are the guidelines for VueUse functions. You could also take them as a reference for authoring your own composable functions or apps.
 
-您还可以找到一些设计决策原因，以及编写可组合函数的一些技巧[Anthony Fu](https://github.com/antfu)'s谈论VueUse:
+<!-- 您还可以找到一些设计决策原因，以及编写可组合函数的一些技巧[Anthony Fu](https://github.com/antfu)'s谈论VueUse: -->
 
 You can also find some reasons for those design decisions and also some tips for writing composable functions with [Anthony Fu](https://github.com/antfu)'s talk about VueUse:
 
@@ -13,19 +13,19 @@ You can also find some reasons for those design decisions and also some tips for
 
 ## 概要(General)
 
-- 从 `"vue-demi"` 导入所有的vue接口
+<!-- - 从 `"vue-demi"` 导入所有的vue接口 -->
 - Import all Vue APIs from `"vue-demi"`
-- 尽可能使用 `ref` 代替 `reactive`
+<!-- - 尽可能使用 `ref` 代替 `reactive` -->
 - Use `ref` instead `reactive` whenever possible
-- 尽可能用对象作为参数，以便将来扩展更灵活。
+<!-- - 尽可能用对象作为参数，以便将来扩展更灵活。 -->
 - Use options object as arguments whenever possible to be more flexible for future extensions.
-- 包装大量数据时，使用 `shallowRef` 而不是 `ref`。
+<!-- - 包装大量数据时，使用 `shallowRef` 而不是 `ref`。 -->
 - Use `shallowRef` instead of `ref` when wrapping large amounts of data.
-- 在使用全局变量如 `window` 时，使用configurableWindow (等)，以便在使用多窗口、测试和SSR时更加灵活。
+<!-- - 在使用全局变量如 `window` 时，使用configurableWindow (等)，以便在使用多窗口、测试和SSR时更加灵活。 -->
 - Use `configurableWindow` (etc.) when using global variables like `window` to be flexible when working with multi-windows, testing mocks, and SSR.
-- 当涉及到尚未被浏览器广泛实现的Web APIs时，也会输出 `isSupported` 标志
+<!-- - 当涉及到尚未被浏览器广泛实现的Web APIs时，也会输出 `isSupported` 标志 -->
 - When involved with Web APIs that are not yet implemented by the browser widely, also outputs `isSupported` flag
-- 当在内部使用' watch '或' watchEffect '时，也尽可能使' immediate '和' flush '选项可配置
+<!-- - 当在内部使用' watch '或' watchEffect '时，也尽可能使' immediate '和' flush '选项可配置 -->
 - When using `watch` or `watchEffect` internally, also make the `immediate` and `flush` options configurable whenever possible
 - Use `tryOnUnmounted`  to clear the side-effects gracefully
 - Avoid using console logs

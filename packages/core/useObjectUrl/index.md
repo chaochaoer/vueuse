@@ -4,7 +4,11 @@ category: Browser
 
 # useObjectUrl
 
+响应式的用URL表示对象
+
 Reactive URL representing an object.
+
+通过 [URL.createObjectURL()](https://developer.mozilla.org/en-US/docs/Web/API/URL/createObjectURL) 给File、Blob 或 MediaSource 创建 URL，并在源更改或组件卸载时通过 [URL.revokeObjectURL()](https://developer.mozilla.org/en-US/docs/Web/API/URL/revokeObjectURL) 自动释放 URL 。
 
 Creates an URL for the provided `File`, `Blob`, or `MediaSource` via [URL.createObjectURL()](https://developer.mozilla.org/en-US/docs/Web/API/URL/createObjectURL) and automatically releases the URL via [URL.revokeObjectURL()](https://developer.mozilla.org/en-US/docs/Web/API/URL/revokeObjectURL) when the source changes or the component is unmounted.
 

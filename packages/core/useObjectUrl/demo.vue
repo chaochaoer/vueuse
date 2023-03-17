@@ -15,12 +15,12 @@ const onFileChange = (e: Event) => {
 <template>
   <div>
     <note class="mb-1">
-      Select file:
+      选择文件:
     </note>
     <input type="file" @change="onFileChange">
 
     <note class="mt-4 mb-1">
-      Object URL:
+      对象URL:
     </note>
     <code>
       <a v-if="url" :href="url" target="_blank">{{ url }}</a>

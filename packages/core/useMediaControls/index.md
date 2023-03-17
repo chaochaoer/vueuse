@@ -4,6 +4,8 @@ category: Browser
 
 # useMediaControls
 
+`audio` 和 `video` 元素的响应式媒体控件。
+
 Reactive media controls for both `audio` and `video` elements
 
 ## Usage

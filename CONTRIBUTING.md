@@ -52,7 +52,7 @@ There are some notes for adding new functions
 - Before you start working, it's better to open an issue to discuss first.
 - 实现应该放在“packages/core”文件夹下，并在“index.ts”中公开。
 - The implementation should be placed under `packages/core` as a folder and exposing in `index.ts`
-- 在 `core` 包中，尽量不要引入第三方依赖项，因为这个包以尽可能轻量为目标。
+- 在 `core` 包中，尽量不要引入第三方依赖项，因为这个包应该尽可能轻量。
 - In the `core` package, try not to introduce 3rd-party dependencies as this package is aimed to be as lightweight as possible.
 - 如果您想引入第三方依赖，请放入@vueuse/integrations或创建一个新的插件。
 - If you'd like to introduce 3rd-party dependencies, please contribute to @vueuse/integrations or create a new add-on.
