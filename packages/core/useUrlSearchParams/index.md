@@ -4,6 +4,8 @@ category: Browser
 
 # useUrlSearchParams
 
+响应式[URLSearchParams](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams)
+
 Reactive [URLSearchParams](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams)
 
 ## Usage
@@ -20,7 +22,9 @@ params.vueuse = 'awesome'
 // url updated to `?foo=bar&vueuse=awesome`
 ```
 
-### Hash Mode
+### hash模式(Hash Mode)
+
+当使用hash路由时，指定hash模式
 
 When using with hash mode route, specify the `mode` to `hash`
 
@@ -34,7 +38,9 @@ params.vueuse = 'awesome'
 // url updated to `#/your/route?foo=bar&vueuse=awesome`
 ```
 
-### Hash Params
+### hash 参数(Hash Params)
+
+当使用 history 模式，但是需要在 hash 中传递参数时，可以使用`hash-params`模式
 
 When using with history mode route, but want to use hash as params, specify the `mode` to `hash-params`
 

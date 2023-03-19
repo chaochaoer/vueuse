@@ -8,8 +8,8 @@ const dir = useTextDirection({
 })
 const text = computed(() =>
   dir.value === 'ltr'
-    ? 'This paragraph is in English and correctly goes left to right.'
-    : 'This paragraph is in English but incorrectly goes right to left.',
+    ? '这段应该从左到右排版'
+    : '这段应该从右到左排版',
 )
 
 const handleOnClick = () => {
@@ -26,7 +26,7 @@ const handleOnClick = () => {
     <button @click="handleOnClick">
       <span class="ml-2">{{ dir.toUpperCase() }}</span>
     </button>
-    <span class="p-4 opacity-50">Click to change the direction</span>
+    <span class="p-4 opacity-50">点击改变方向</span>
   </div>
 </template>
 

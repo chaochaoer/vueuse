@@ -4,7 +4,11 @@ category: Browser
 
 # useWebNotification
 
+响应式 [Notification](https://developer.mozilla.org/en-US/docs/Web/API/notification)
+
 Reactive [Notification](https://developer.mozilla.org/en-US/docs/Web/API/notification)
+
+Notifications API 的 Web Notification 接口用于配置和向用户显示桌面通知。
 
 The Web Notification interface of the Notifications API is used to configure and display desktop notifications to the user.
 

@@ -4,6 +4,8 @@ category: Animation
 
 # useTimestamp
 
+响应式获取当前时间戳
+
 Reactive current timestamp
 
 ## Usage

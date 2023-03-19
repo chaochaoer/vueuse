@@ -17,6 +17,6 @@ const restart = () => {
 <template>
   <p>{{ text }}</p>
   <button :class="{ disabled: isPending }" @click="restart()">
-    Restart
+    重新开始
   </button>
 </template>

@@ -28,7 +28,7 @@ onKeyStroke(['d', 'D', 'ArrowRight'], (e: KeyboardEvent) => {
       <div class="ball" :style="{ transform: `translate(${translateX}px, ${translateY}px)` }" />
     </div>
     <div class="text-center mt-4">
-      Use the arrow keys or w a s d keys to control the movement of the ball.
+      使用箭头键或 w a s d 键来控制球的移动。
     </div>
   </div>
 </template>

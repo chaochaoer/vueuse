@@ -4,6 +4,8 @@ category: Browser
 
 # useTextareaAutosize
 
+根据内容自动更新文本区域的高度。
+
 Automatically update the height of a textarea depending on the content.
 
 ## Usage

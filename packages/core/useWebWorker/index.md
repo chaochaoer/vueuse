@@ -5,6 +5,8 @@ related: useWebWorkerFn
 
 # useWebWorker
 
+简单的 [Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers) 注册和通信。
+
 Simple [Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers) registration and communication.
 
 ## Usage
@@ -15,12 +17,12 @@ import { useWebWorker } from '@vueuse/core'
 const { data, post, terminate, worker } = useWebWorker('/path/to/worker.js')
 ```
 
-| State  | Type                              | Description                                                                                          |
+| 状态  | 类型                              | 描述                                                                                          |
 | ------ | --------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| data   | `Ref<any>`                        | Reference to the latest data received via the worker, can be watched to respond to incoming messages |
-| worker | `ShallowRef<Worker \| undefined>` | Reference to the instance of the WebWorker                                                           |
+| data   | `Ref<any>`                        | 通过worker接收到最新数据，监听传入消息的响应 |
+| worker | `ShallowRef<Worker \| undefined>` | WebWorker实例的引用                                                           |
 
-| Method    | Signature             | Description                      |
+| 方法    | 签名             | 描述                      |
 | --------- | --------------------- | -------------------------------- |
-| post      | `(data: any) => void` | Sends data to the worker thread. |
-| terminate | `() => void`          | Stops and terminates the worker. |
+| post      | `(data: any) => void` | 给work线程发送数据。 |
+| terminate | `() => void`          | 终止work线程。 |

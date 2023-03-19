@@ -4,6 +4,8 @@ category: Animation
 
 # useTimeout
 
+在给定时间后更新值。
+
 Update value after a given time with controls.
 
 ## Usage

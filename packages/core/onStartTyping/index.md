@@ -4,6 +4,8 @@ category: Sensors
 
 # onStartTyping
 
+当用户开始在不可编辑的元素上输入时触发。
+
 Fires when users start typing on non-editable elements.
 
 ## Usage

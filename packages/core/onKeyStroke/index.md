@@ -4,6 +4,8 @@ category: Sensors
 
 # onKeyStroke
 
+监听键盘事件
+
 Listen for keyboard key being stroked.
 
 ## Usage
@@ -16,9 +18,11 @@ onKeyStroke('ArrowDown', (e) => {
 })
 ```
 
+请参阅[此表](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key/Key_Values)了解所有键码。
+
 See [this table](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key/Key_Values) for all key codes.
 
-### Listen To Multiple Keys
+### 监听多个键(Listen To Multiple Keys)
 
 ```js
 import { onKeyStroke } from '@vueuse/core'
@@ -36,7 +40,7 @@ onKeyStroke((e) => {
 })
 ```
 
-### Custom Event Target
+### 自定义事件目标(Custom Event Target)
 
 ```js
 onKeyStroke('A', (e) => {
@@ -44,7 +48,7 @@ onKeyStroke('A', (e) => {
 }, { target: document })
 ```
 
-## Directive Usage
+## 使用指令(Directive Usage)
 
 ```html
 <script setup lang="ts">
@@ -61,7 +65,7 @@ function onUpdate(e: KeyboardEvent) {
 </template>
 ```
 
-### Custom Keyboard Event
+### 自定义键盘事件(Custom Keyboard Event)
 
 ```js
 onKeyStroke('Shift', (e) => {
@@ -76,8 +80,8 @@ onKeyUp('Shift', () => console.log('Shift key up'))
 ```
 
 
-## Shorthands
+## 速记(Shorthands)
 
-- `onKeyDown` - alias for `onKeyStroke(key, handler, {eventName: 'keydown'})`
-- `onKeyPressed` - alias for `onKeyStroke(key, handler, {eventName: 'keypress'})`
-- `onKeyUp` -  alias for `onKeyStroke(key, handler, {eventName: 'keyup'})`
+- `onKeyDown` - 别名 `onKeyStroke(key, handler, {eventName: 'keydown'})`
+- `onKeyPressed` - 别名`onKeyStroke(key, handler, {eventName: 'keypress'})`
+- `onKeyUp` -  别名 `onKeyStroke(key, handler, {eventName: 'keyup'})`

@@ -8,7 +8,7 @@ category: Browser
 
 Reactive [EyeDropper API](https://developer.mozilla.org/en-US/docs/Web/API/EyeDropper_API)
 
-## 使用(Usage)
+## Usage
 
 ```ts
 import { useEyeDropper } from '@vueuse/core'

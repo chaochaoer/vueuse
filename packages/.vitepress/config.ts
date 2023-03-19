@@ -100,8 +100,8 @@ export default defineConfig({
           {
             text: '',
             items: [
-              { text: 'All Functions', link: '/functions#' },
-              { text: 'Recent Updated', link: '/functions#sort=updated' },
+              { text: '所有函数', link: '/functions#' },
+              { text: '最近更新', link: '/functions#sort=updated' },
             ],
           },
           { text: '核心', items: CoreCategories },

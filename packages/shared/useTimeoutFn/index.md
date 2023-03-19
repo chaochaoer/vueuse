@@ -4,6 +4,8 @@ category: Animation
 
 # useTimeoutFn
 
+带控件的 `setTimeout` 包装器。
+
 Wrapper for `setTimeout` with controls.
 
 ## Usage

@@ -4,6 +4,8 @@ category: Sensors
 
 # onClickOutside
 
+监听元素外部的点击事件，对模态框和下拉菜很有用。
+
 Listen for clicks outside of an element. Useful for modal or dropdown.
 
 ## Usage
@@ -33,6 +35,7 @@ export default {
 }
 </script>
 ```
+> 此功能使用IE 11、Edge 18 及更低版本不支持的Event.composedPath() 。如果您的目标是这些浏览器，我们建议您将[此代码片段](https://gist.github.com/sibbng/13e83b1dd1b733317ce0130ef07d4efd)包含在您的项目中。
 
 > This function uses [Event.composedPath()](https://developer.mozilla.org/en-US/docs/Web/API/Event/composedPath) which is NOT supported by IE 11, Edge 18 and below. If you are targeting these browsers, we recommend you to include [this code snippet](https://gist.github.com/sibbng/13e83b1dd1b733317ce0130ef07d4efd) on your project.
 

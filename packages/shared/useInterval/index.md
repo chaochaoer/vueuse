@@ -4,6 +4,8 @@ category: Animation
 
 # useInterval
 
+每隔一段时间响应式增加计数
+
 Reactive counter increases on every interval
 
 ## Usage

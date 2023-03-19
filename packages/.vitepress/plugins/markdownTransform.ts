@@ -137,7 +137,7 @@ import Demo from \'./${demoPath}\'
 ## 例子
 
 <DemoContainer>
-<p class="demo-source-link"><a href="${URL}/${demoPath}" target="_blank">source</a></p>
+<p class="demo-source-link"><a href="${URL}/${demoPath}" target="_blank">源</a></p>
 <Demo/>
 </DemoContainer>
 `
