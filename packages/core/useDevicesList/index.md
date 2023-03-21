@@ -4,6 +4,8 @@ category: Sensors
 
 # useDevicesList
 
+列出可用的输入输出设备的响应式列表
+
 Reactive [enumerateDevices](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/enumerateDevices) listing available input/output devices.
 
 ## Usage

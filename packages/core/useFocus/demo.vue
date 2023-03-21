@@ -14,35 +14,35 @@ const { focused: buttonFocus } = useFocus(button)
 <template>
   <div>
     <p ref="text" class="demo-el px-2 rounded" tabindex="0">
-      Paragraph that can be focused
+      可聚焦的文本
     </p>
     <input ref="input" class="demo-el" type="text" placeholder="Input that can be focused">
     <button ref="button" class="demo-el button">
-      Button that can be focused
+      可以聚焦的按钮
     </button>
     <hr>
     <note class="mb-2">
       <template v-if="paragraphFocus">
-        The paragraph has focus
+        文本有聚焦
       </template>
       <template v-else-if="inputFocus">
-        The input control has focus
+        输入框有聚焦
       </template>
       <template v-else-if="buttonFocus">
-        The button has focus
+        按钮有聚焦
       </template>
       <template v-else>
         &nbsp;<!-- prevents paragraph from collapsing when empty otherwise -->
       </template>
     </note>
     <button class="button small !ml-0" :class="{ orange: paragraphFocus }" @click="paragraphFocus = !paragraphFocus">
-      Focus text
+      文本聚焦
     </button>
     <button class="button small" :class="{ orange: inputFocus }" @click="inputFocus = !inputFocus">
-      Focus input
+      输入框聚焦
     </button>
     <button class="button small" :class="{ orange: buttonFocus }" @click="buttonFocus = !buttonFocus">
-      Focus button
+      按钮聚焦
     </button>
   </div>
 </template>

@@ -4,6 +4,8 @@ category: Sensors
 
 # useElementHover
 
+响应元素的悬停状态
+
 Reactive element's hover state.
 
 ## Usage
