@@ -4,6 +4,8 @@ category: Sensors
 
 # useInfiniteScroll
 
+元素无限滚动。
+
 Infinite scrolling of the element.
 
 ## Usage

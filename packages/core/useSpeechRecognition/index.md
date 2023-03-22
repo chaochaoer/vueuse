@@ -4,6 +4,8 @@ category: Sensors
 
 # useSpeechRecognition
 
+响应式[SpeechRecognition](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition)。
+
 Reactive [SpeechRecognition](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition).
 
 > [Can I use?](https://caniuse.com/mdn-api_speechrecognitionevent)

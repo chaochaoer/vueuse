@@ -26,7 +26,7 @@ See the [Type Declarations](#type-declarations) for more options.
 
 Auto-connect (enabled by default).
 
-这将自动为您调用open()，您不需要自己调用它。
+将自动调用open()，您不需要自己调用它。
 
 This will call `open()` automatically for you and you don't need to call it by yourself.
 

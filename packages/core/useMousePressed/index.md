@@ -4,6 +4,8 @@ category: Sensors
 
 # useMousePressed
 
+响应式鼠标按下状态。由目标元素的 `mousedown` `touchstart` 事件触发，并由window上的 `mouseup` `mouseleave` `touchend` `touchcancel` 事件释放。
+
 Reactive mouse pressing state. Triggered by `mousedown` `touchstart` on target element and released by `mouseup` `mouseleave` `touchend` `touchcancel` on window.
 
 ## Basic Usage

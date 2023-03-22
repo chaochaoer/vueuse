@@ -4,6 +4,8 @@ category: Sensors
 
 # useScrollLock
 
+锁定元素的滚动。
+
 Lock scrolling of the element. 
 
 ## Usage

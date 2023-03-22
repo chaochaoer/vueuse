@@ -47,15 +47,15 @@ const { direction, isSwiping, lengthX, lengthY } = useSwipe(
   <div>
     <div ref="container" class="container select-none">
       <button @click="reset">
-        Reset
+        重置
       </button>
       <div ref="target" class="overlay" :class="{ animated: !isSwiping }" :style="{ left, opacity }">
-        <p>Swipe right</p>
+        <p>右滑</p>
       </div>
     </div>
     <p class="status">
-      Direction: {{ direction ? direction : '-' }} <br>
-      lengthX: {{ lengthX }} | lengthY: {{ lengthY }}
+      方向: {{ direction ? direction : '-' }} <br>
+      长度X: {{ lengthX }} | 长度Y: {{ lengthY }}
     </p>
   </div>
 </template>

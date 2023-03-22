@@ -7,6 +7,7 @@ VueUse是一款基于[组合式API](https://v3.vuejs.org/guide/composition-api-i
 VueUse is a collection of utility functions based on [Composition API](https://v3.vuejs.org/guide/composition-api-introduction.html). We assume you are already familiar with the basic ideas of [Composition API](https://v3.vuejs.org/guide/composition-api-introduction.html) before you continue.
 
 ## 安装
+> 从 v4.0 开始，它通过 vue-demi 的加持，可以在 Vue 2 和 3 中使用。
 
 > 🎩 From v4.0, it works for Vue 2 & 3 **within a single package** by the power of [vue-demi](https://github.com/vueuse/vue-demi)!
 

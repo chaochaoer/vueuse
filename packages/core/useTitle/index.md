@@ -8,8 +8,6 @@ category: Browser
 
 Reactive document title.
 
-::: 注意
-
 当与 Nuxt3 一起使用时，这个函数将不会自动导入支持 Nuxt 的内置useTitle(). 如果你想使用 VueUse 中的函数，请使用显式导入。
 
 When using with Nuxt 3, this function will **NOT** be auto imported in favor of Nuxt's built-in `useTitle()`.
@@ -58,9 +56,8 @@ Pass an optional template tag [Vue Meta Title Template](https://vue-meta.nuxtjs.
 const title = useTitle('New Title', { titleTemplate: '%s | My Awesome Website' })
 ```
 
-::: 警告
+:::警告
 
-`observe` 与不兼容  `titleTemplate`。
+`observe` 与 `titleTemplate` 不兼容 。
 
 `observe` is incompatible with `titleTemplate`.
-:::

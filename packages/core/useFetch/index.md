@@ -33,7 +33,7 @@ const { isFetching, error, data } = useFetch(url)
 
 ### 异步使用(Asynchronous Usage)
 
-`useFetch` 也可以像正常fetch一样等待。请注意，只要组件是异步的，使用它的任何组件都必须将组件包装在标记中。您可以在[Offical Vue 3 Docs](https://vuejs.org/guide/built-ins/suspense.html)中阅读有关 suspense api 的更多信息
+`useFetch` 也可以像正常fetch一样被 await。请注意，只要组件是异步的，使用它的任何组件都必须将组件包装在 `<Suspense>` 标签中。您可以在[Offical Vue 3 Docs](https://vuejs.org/guide/built-ins/suspense.html)中阅读有关 suspense api 的更多信息
 
 `useFetch` can also be awaited just like a normal fetch. Note that whenever a component is asynchronous, whatever component that uses
 it must wrap the component in a `<Suspense>` tag. You can read more about the suspense api in the [Offical Vue 3 Docs](https://vuejs.org/guide/built-ins/suspense.html)
@@ -60,7 +60,7 @@ url.value = 'https://my-api.com/user/2' // Will trigger another request
 
 ### 阻止请求立即触发(Prevent request from firing immediately)
 
-将选项设置 `immediate` 为 false 将阻止请求在 `execute` 调用函数之前触发。
+将 `immediate` 选项设置为 false 将阻止请求触发，除非调用 `execute`。
 
 Setting the `immediate` option to false will prevent the request from firing until the `execute` function is called.
 
@@ -72,7 +72,7 @@ execute()
 
 ### 中止请求(Aborting a request)
 
-`abort` 函数可以中止请求  `useFetch`。该 `canAbort` 属性表示是否可以中止请求。
+一个请求可以通过使用 `useFetch` 函数中的 `abort` 函数中止。`canAbort` 属性表示请求是否可以中止。
 
 A request can be aborted by using the `abort` function from the `useFetch` function. The `canAbort` property indicates if the request can be aborted.
 
@@ -85,7 +85,7 @@ setTimeout(() => {
 }, 100)
 ```
 
-也可以使用 `timeout` 属性自动中止请求。当达到给定的超时时，它将调用 `abort` 函数。
+也可以使用 `timeout` 属性自动中止请求。当达到给定的超时时间，它将调用 `abort` 函数。
 
 A request can also be aborted automatically by using `timeout` property. It will call `abort` function when the given timeout is reached.
 
@@ -134,7 +134,7 @@ const { data } = useFetch(url, {
 })
 ```
 
-该 `onFetchError` 选项可以在更新之前拦截响应数据和错误。
+`onFetchError` 选项可以在更新之前拦截响应数据和错误。
 
 The `onFetchError` option can intercept the response data and error before it is updated.
 ```ts
@@ -153,7 +153,7 @@ const { data } = useFetch(url, {
 
 ### 设置请求方法和返回类型(Setting the request method and return type)
 
-可以通过在末尾添加适当的方法来设置请求方法和返回类型useFetch
+请求方法和返回类型可以通过链式调用 `useFetch` 来设置。
 
 The request method and return type can be set by adding the appropriate methods to the end of `useFetch`
 
@@ -172,7 +172,7 @@ const { data } = useFetch(url, { method: 'GET' }, { refetch: true }).blob()
 
 ### 创建自定义实例(Creating a Custom Instance)
 
-该 `createFetch` 函数将返回一个 useFetch 函数，其中包含提供给它的任何预配置选项。这对于在使用相同基本 URL 或需要授权标头的整个应用程序中与 API 交互非常有用。
+`createFetch` 函数将返回一个 useFetch 函数，其中包含提供给它的所有预配置选项。这对于在整个应用程序中，有相同的 base URL 或需要添加请求头的API进行交互非常有用。
 
 The `createFetch` function will return a useFetch function with whatever pre-configured options that are provided to it. This is useful for interacting with API's throughout an application that uses the same base URL or needs Authorization headers.
 
@@ -239,7 +239,7 @@ const { isFetching, error, data } = useMyFetch('users', {
 
 ### 事件(Events)
 
-将分别在获取请求响应和错误时触发 `onFetchResponse`和`onFetchError`。
+将分别在收到响应和错误时触发 `onFetchResponse` 和`onFetchError`。
 
 The `onFetchResponse` and `onFetchError` will fire on fetch request responses and errors respectively.
 

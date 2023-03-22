@@ -4,6 +4,8 @@ category: Sensors
 
 # usePointerLock
 
+响应式 [指针锁定](https://developer.mozilla.org/en-US/docs/Web/API/Pointer_Lock_API).
+
 Reactive [pointer lock](https://developer.mozilla.org/en-US/docs/Web/API/Pointer_Lock_API).
 
 ## Basic Usage

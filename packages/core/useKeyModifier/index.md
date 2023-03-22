@@ -4,6 +4,8 @@ category: Sensors
 
 # useKeyModifier
 
+响应式 [键盘修饰键状态](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/getModifierState)。跟踪任何[修饰键](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/getModifierState#browser_compatibility)的状态 - 请参阅浏览器兼容性说明。
+
 Reactive [Modifier State](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/getModifierState). Tracks state of any of the [supported modifiers](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/getModifierState#browser_compatibility) - see Browser Compatibility notes.
 
 <CourseLink href="https://vueschool.io/lessons/alt-drag-to-clone-tasks?friend=vueuse">Learn useKeyModifier with this FREE video lesson from Vue School!</CourseLink>

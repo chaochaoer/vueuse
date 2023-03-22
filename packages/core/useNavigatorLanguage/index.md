@@ -4,6 +4,8 @@ category: Sensors
 
 # useNavigatorLanguage
 
+响应式  [navigator.language](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/language)。
+
 Reactive [navigator.language](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/language).
 
 ## Usage

@@ -5,6 +5,8 @@ related: useDevicesList, usePermission
 
 # useUserMedia
 
+响应式 [`mediaDevices.getUserMedia`](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia)流
+
 Reactive [`mediaDevices.getUserMedia`](https://developer.mozilla.org/en-US/docs/Web/API/MediaDevices/getUserMedia) streaming.
 
 ## Usage

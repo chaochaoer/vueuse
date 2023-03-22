@@ -38,7 +38,7 @@ const toggleLock = useToggle(isLocked)
         <BooleanDisplay :value="isLocked" />
       </div>
       <button opacity="75" @click="toggleLock()">
-        {{ isLocked ? 'Unlock' : 'Lock' }}
+        {{ isLocked ? '解锁' : '上锁' }}
       </button>
     </div>
   </div>

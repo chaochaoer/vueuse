@@ -4,6 +4,8 @@ category: Sensors
 
 # useIdle
 
+跟踪用户是否处于非活动状态。
+
 Tracks whether the user is being inactive.
 
 ## Usage

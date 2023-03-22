@@ -113,6 +113,6 @@ useTransition(source, {
 })
 ```
 
-要暂停transition，可以定义一个布尔值 `disabled` 属性。请注意，这与 duration:0 的不同。禁用transition同步跟踪源值。它们不接受 `delay`，也不会触发 `onStarted` 或 `onFinished` 回调。
+<!-- 要暂停transition，可以定义一个布尔值 `disabled` 属性。请注意，这与 duration:0 的不同。禁用transition同步跟踪源值。它们不接受 `delay`，也不会触发 `onStarted` 或 `onFinished` 回调。 -->
 
 To temporarily stop transitioning, define a boolean `disabled` property. Be aware, this is not the same a `duration` of `0`. Disabled transitions track the source value **_synchronously_**. They do not respect a `delay`, and do not fire `onStarted` or `onFinished` callbacks.

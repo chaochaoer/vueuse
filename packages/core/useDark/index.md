@@ -79,7 +79,7 @@ will work like
 </html>
 ```
 
-如果上述配置仍然不能满足您的需求，您可以使用该 `onChanged` 选项来完全控制您处理更新的方式。
+如果上述配置仍然不能满足您的需求，您可以使用 `onChanged` 选项来完全控制您处理更新的方式。
 
 If the configuration above still does not fit your needs, you can use the`onChanged` option to take full control over how you handle updates.
 

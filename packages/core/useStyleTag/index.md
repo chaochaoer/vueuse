@@ -42,7 +42,7 @@ This code will be injected to `<head>`:
 
 ### 自定义 ID(Custom ID)
 
-如果你需要定义你自己的id，你可以 `id` 作为第一个参数传递。
+如果你需要定义你自己的id，你可以把 `id` 作为第一个参数传递。
 
 If you need to define your own id, you can pass `id` as first argument.
 

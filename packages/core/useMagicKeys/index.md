@@ -4,6 +4,8 @@ category: Sensors
 
 # useMagicKeys
 
+响应式按下状态，支持组合键。
+
 Reactive keys pressed state, with magical keys combination support.
 
 <RequiresProxy />
