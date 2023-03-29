@@ -4,9 +4,13 @@ category: Watch
 
 # watchTriggerable
 
+可以手动触发的 watch
+
 Watch that can be triggered manually
 
 ## Usage
+
+一个 `watch` 包装器，支持手动触发 `WatchCallback`，它返回一个 `trigger` 让`WatchCallback`立即执行。
 
 A `watch` wrapper that supports manual triggering of `WatchCallback`, which returns an additional `trigger` to execute a `WatchCallback` immediately.
 
@@ -22,10 +26,10 @@ const { trigger, ignoreUpdates } = watchTriggerable(
 )
 
 source.value = 'bar'
-await nextTick() // logs: Changed to bar!
+await nextTick() // 打印: Changed to bar!
 
-// Execution of WatchCallback via `trigger` does not require waiting
-trigger() // logs: Changed to bar!
+// 通过 `trigger` 执行 WatchCallback 不需要等待
+trigger() // 打印: Changed to bar!
 ```
 
 ### `onCleanup`

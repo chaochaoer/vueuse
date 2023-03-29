@@ -4,6 +4,8 @@ category: Component
 
 # useVModel
 
+v-model 简写，props + emit -> ref
+
 Shorthand for v-model binding, props + emit -> ref
 
 ## Usage

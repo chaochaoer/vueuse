@@ -4,13 +4,13 @@ category: Animation
 
 # useTransition
 
-值之间的转换
+值之间的过度
 
 Transition between values
 
 ## Usage
 
-对于简单的transitions，提供一个数字源值来监听。更改后，输出将转换为新值。如果源在过渡过程中发生变化，则新的过渡将从前一个过渡中断的地方开始。
+对于简单的过度，提供一个数字源值来监听。更改后，output将转换为新值。如果源在过渡过程中发生变化，则新的过渡将从前一个过渡中断的地方开始。
 
 For simple transitions, provide a numeric source value to watch. When changed, the output will transition to the new value. If the source changes while a transition is in progress, a new transition will begin from where the previous one was interrupted.
 
@@ -26,7 +26,7 @@ const output = useTransition(source, {
 })
 ```
 
-要同步转换，请使用数字数组。例如，这里是我们如何在颜色之间转换。
+要同步转换，请使用数字类型数组。例如，这里是我们如何在颜色之间转换。
 
 To synchronize transitions, use an array of numbers. As an example, here is how we could transition between colors.
 
@@ -50,7 +50,7 @@ useTransition(source, {
   transition: [0.75, 0, 0.25, 1],
 })
 ```
-以下过渡参数可通过常量`TransitionPresets` 获得。
+以下过渡参数可通过常量 `TransitionPresets` 获得。
 
 The following transitions are available via the `TransitionPresets` constant.
 
@@ -80,7 +80,7 @@ The following transitions are available via the `TransitionPresets` constant.
 - [`easeOutBack`](https://cubic-bezier.com/#.34,1.56,.64,1)
 - [`easeInOutBack`](https://cubic-bezier.com/#.68,-.6,.32,1.6)
 
-对于更复杂的transitions，可以提供自定义函数。
+对于更复杂的过度动画，可以自定义函数。
 
 For more complex transitions, a custom function can be provided.
 
@@ -97,7 +97,7 @@ useTransition(source, {
   transition: easeOutElastic,
 })
 ```
-要控制过渡何时开始，请设置一个 `delay` 值。围绕transition编排行为，定义 `onStarted` 或 `onFinished` 回调。
+要控制过渡何时开始，可以设置 `delay` 。在动画前后编排行为，定义回调函数 `onStarted` 或 `onFinished` 。
 
 To control when a transition starts, set a `delay` value. To choreograph behavior around a transition, define `onStarted` or `onFinished` callbacks.
 

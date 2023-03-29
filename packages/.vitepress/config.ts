@@ -177,11 +177,11 @@ export default defineConfig({
     ['meta', { name: 'twitter:creator', content: '@antfu7' }],
     ['meta', { name: 'twitter:image', content: 'https://vueuse.org/og.png' }],
     ['meta', { name: 'viewport', content: 'width=device-width, initial-scale=1.0, viewport-fit=cover' }],
-
     ['link', { rel: 'dns-prefetch', href: 'https://fonts.gstatic.com' }],
     ['link', { rel: 'preconnect', crossorigin: 'anonymous', href: 'https://fonts.gstatic.com' }],
     ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap' }],
     ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Fira+Code&display=swap' }],
+    ['script', { src: 'https://hm.baidu.com/hm.js?0a513202b21a22511d6bfc4e79694d9a' }],
   ],
 })
 

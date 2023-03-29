@@ -11,12 +11,12 @@ invoke(async () => {
 </script>
 
 <template>
-  <note>Add to 7 to show the alert.</note>
-  <p>Count: {{ count }}</p>
+  <note>添加到7以显示alert</note>
+  <p>计数: {{ count }}</p>
   <button @click="inc()">
-    Increment
+    加
   </button>
   <button @click="dec()">
-    Decrement
+    减
   </button>
 </template>

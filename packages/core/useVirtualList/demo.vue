@@ -32,7 +32,7 @@ const handleScrollTo = () => {
   <div>
     <div>
       <div class="inline-block mr-4">
-        Jump to index
+        跳转到索引
         <input v-model="index" placeholder="Index" type="number">
       </div>
       <button type="button" @click="handleScrollTo">
@@ -41,7 +41,7 @@ const handleScrollTo = () => {
     </div>
     <div>
       <div class="inline-block mr-4">
-        Filter list by size
+        按大小过滤列表
         <input v-model="search" placeholder="e.g. small, medium, large" type="search">
       </div>
     </div>

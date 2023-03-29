@@ -4,6 +4,8 @@ category: Component
 
 # unrefElement
 
+取消对 dom 元素的引用。
+
 Unref for dom element.
 
 ## Usage
@@ -18,12 +20,12 @@ Unref for dom element.
 import { ref, onMounted } from 'vue'
 import { unrefElement } from '@vueuse/core'
 
-const div = ref() // will be bind to the <div> element
-const hello = ref() // will be bind to the HelloWorld Component
+const div = ref() // 绑定 <div> 元素
+const hello = ref() // 绑定 HelloWorld 组件
 
 onMounted(() => {
-  console.log(unrefElement(div)) // the <div> element
-  console.log(unrefElement(hello)) // the root element of the HelloWorld Component
+  console.log(unrefElement(div)) // <div> element
+  console.log(unrefElement(hello)) // HelloWorld 组件的根元素
 })
 </script>
 ```

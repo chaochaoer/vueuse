@@ -4,11 +4,13 @@ category: Watch
 
 # until
 
+监听一次Promise变化
+
 Promised one-time watch for changes
 
 ## Usage
 
-#### Wait for some async data to be ready
+#### 等待一些异步数据准备好(Wait for some async data to be ready)
 
 ```js
 import { until, useAsyncState } from '@vueuse/core'
@@ -25,7 +27,7 @@ const { state, isReady } = useAsyncState(
 })()
 ```
 
-#### Wait for custom conditions
+#### 等待自定义条件(Wait for custom conditions)
 
 > You can use `invoke` to call the async function.
 

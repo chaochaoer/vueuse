@@ -13,9 +13,9 @@ watchDebounced(input, () => {
 <template>
   <div>
     <input v-model="input" placeholder="Try to type anything..." type="text">
-    <note>Delay is set to 1000ms and maxWait is set to 5000ms for this demo.</note>
+    <note>delay设置为1000ms, maxWait设置为5000ms。</note>
 
-    <p>Input: {{ input }}</p>
-    <p>Times Updated: {{ updated }}</p>
+    <p>输入: {{ input }}</p>
+    <p>更新的次数: {{ updated }}</p>
   </div>
 </template>
