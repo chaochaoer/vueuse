@@ -181,7 +181,7 @@ export default defineConfig({
     ['link', { rel: 'preconnect', crossorigin: 'anonymous', href: 'https://fonts.gstatic.com' }],
     ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap' }],
     ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Fira+Code&display=swap' }],
-    ['script', { src: 'https://hm.baidu.com/hm.js?0a513202b21a22511d6bfc4e79694d9a' }],
+    ['script', { src: 'https://hm.baidu.com/hm.js?bbef9a0a3859073d2f4169e9216d756b' }],
   ],
 })
 
