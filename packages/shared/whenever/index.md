@@ -4,6 +4,8 @@ category: Watch
 
 # whenever
 
+监听真值的简写
+
 Shorthand for watching value to be truthy.
 
 ## Usage
@@ -23,7 +25,7 @@ whenever(isReady, () => console.log(state))
 // this
 whenever(ready, () => console.log(state))
 
-// is equivalent to:
+// 等价于:
 watch(ready, (isReady) => {
   if (isReady)
     console.log(state)
