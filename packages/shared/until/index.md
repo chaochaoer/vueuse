@@ -4,7 +4,7 @@ category: Watch
 
 # until
 
-监听一次Promise变化
+监听一次Promise后的变化
 
 Promised one-time watch for changes
 

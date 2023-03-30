@@ -16,6 +16,6 @@ import { useWakeLock } from '@vueuse/core'
 const { isSupported, isActive, request, release } = useWakeLock()
 ```
 
-如果 `request` 被调用，`isActive` 将为 **true**，如果被 `release` 调用，或显示其他选项卡，或窗口最小化，`isActive` 将为 **false**。
+如果 `request` 被调用，`isActive` 将为 **true**，如果 `release` 被调用，或显示其他选项卡，或窗口最小化，`isActive` 将为 **false**。
 
 If `request` is called,` isActive` will be **true**, and if `release` is called, or other tab is displayed, or the window is minimized,`isActive` will be **false**.

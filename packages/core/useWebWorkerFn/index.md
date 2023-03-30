@@ -4,7 +4,7 @@ category: Browser
 
 # useWebWorkerFn
 
-使用 Promise 语法，在不阻塞 UI 的情况下运行，运行在 [alewin/useWorker](https://github.com/alewin/useWorker)。
+使用 Promise 语法，在不阻塞 UI 的情况下运行复杂功能，运行在 [alewin/useWorker](https://github.com/alewin/useWorker)。
 
 Run expensive functions without blocking the UI, using a simple syntax that makes use of Promise. A port of [alewin/useWorker](https://github.com/alewin/useWorker).
 

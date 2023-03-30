@@ -8,13 +8,13 @@ related:
 
 # useDark
 
-具有自动数据持久性的响应式暗色模式。
+具有自动数据持久性的响应式暗黑模式。
 
 Reactive dark mode with auto data persistence.
 
 <CourseLink href="https://vueschool.io/lessons/theming-with-vueuse-usedark-and-usecolormode?friend=vueuse">Learn useDark with this FREE video lesson from Vue School!</CourseLink>
 
-## 基本使用(Basic Usage)
+## Basic Usage
 
 ```js
 import { useDark, useToggle } from '@vueuse/core'
@@ -35,7 +35,7 @@ const toggleDark = useToggle(isDark)
 
 ## 配置(Configuration)
 
-默认情况下，它使用 [Tailwind CSS favored dark mode](https://tailwindcss.com/docs/dark-mode#toggling-dark-mode-manually),当类 `dark` 应用于 `html` 标签时启用暗模式，例如：
+默认情况下，它使用 [Tailwind CSS favored dark mode](https://tailwindcss.com/docs/dark-mode#toggling-dark-mode-manually)，当类 `dark` 应用于 `html` 标签时，启用暗黑模式，例如：
 
 By default, it uses [Tailwind CSS favored dark mode](https://tailwindcss.com/docs/dark-mode#toggling-dark-mode-manually), which enables dark mode when class `dark` is applied to the `html` tag, for example:
 

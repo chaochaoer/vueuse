@@ -4,7 +4,7 @@ category: Sensors
 
 # useDeviceOrientation
 
-响应式[DeviceOrientationEvent](https://developer.mozilla.org/en-US/docs/Web/API/DeviceOrientationEvent)。为web开发人员提供运行网页的设备的物理方向信息。
+响应式[DeviceOrientationEvent](https://developer.mozilla.org/en-US/docs/Web/API/DeviceOrientationEvent)。提供给网页开发者当设备在浏览页面时物理旋转的信息。
 
 Reactive [DeviceOrientationEvent](https://developer.mozilla.org/en-US/docs/Web/API/DeviceOrientationEvent). Provide web developers with information from the physical orientation of the device running the web page.
 

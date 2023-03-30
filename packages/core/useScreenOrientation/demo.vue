@@ -6,8 +6,7 @@ const { isSupported, orientation, angle } = useScreenOrientation()
 
 <template>
   <note class="mb-2">
-    For best results, please use a mobile or tablet device (or use your browser's native inspector to simulate an
-    orientation change)
+    为了获得最佳效果，请使用移动或平板设备(或使用浏览器的检查器来模拟方向变化)
   </note>
   <div>
     isSupported: <boolean-display :value="isSupported">

@@ -51,7 +51,7 @@ motionControl.resume()
 VueUse's functions follow Vue's reactivity system defaults for [flush timing](https://vuejs.org/guide/essentials/watchers.html#callback-flush-timing) where possible.
 
  <!-- TODO -->
-对于类 `watch` 类的组合项(例如: `pausableWatch`, `whenever`, `useStorage`, `useRefHistory` )默认是' {flush: 'pre'} '。这意味着它们将缓存副作用函数，并异步刷新它们。这样一来，在同一个“tick”中产生多个状态变化时，不会出现多个不必要的重复调用。
+对于类 `watch` 类的组合项(例如: `pausableWatch`, `whenever`, `useStorage`, `useRefHistory` )默认是' {flush: 'pre'}'。这意味着它们将缓存无效的副作用，并异步刷新它们。这样一来，在同一个“tick”中产生多个状态变化时，不会出现多个不必要的重复调用。
 
 For `watch`-like composables (e.g. `pausableWatch`, `whenever`, `useStorage`, `useRefHistory`) the default is `{ flush: 'pre' }`. Which means they will buffer invalidated effects and flush them asynchronously. This avoids unnecessary duplicate invocation when there are multiple state mutations happening in the same "tick".
 

@@ -50,7 +50,7 @@ There are some notes for adding new functions
 
 - 在开始工作之前，最好先开个issue进行讨论。
 - Before you start working, it's better to open an issue to discuss first.
-- 实现应该放在“packages/core”文件夹下，并在“index.ts”中公开。
+- 实现应该放在“packages/core”文件夹下，并在“index.ts”中暴露。
 - The implementation should be placed under `packages/core` as a folder and exposing in `index.ts`
 - 在 `core` 包中，尽量不要引入第三方依赖项，因为这个包应该尽可能轻量。
 - In the `core` package, try not to introduce 3rd-party dependencies as this package is aimed to be as lightweight as possible.
@@ -74,9 +74,9 @@ New add-ons are greatly welcome!
 - Add add-on details in `scripts/packages.ts`
 - 在这个文件夹下创建 `README.md` 
 - Create `README.md` under that folder.
-- 像在核心包中那样添加函数
+- 像在core package中那样添加函数
 - Add functions as you would do to the core package.
-- commit和提交pr
+- commit和作为pr提交
 - Commit and submit as a PR.
 
 ## 项目结构(Project Structure)

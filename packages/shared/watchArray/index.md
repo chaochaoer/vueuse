@@ -10,7 +10,7 @@ Watch for an array with additions and removals.
 
 ## Usage
 
-与 `watch` 类似，但给回调函数传入了添加和删除的元素，如果list用`push`, `splice`等更新，请传`{ deep: true }`。
+与 `watch` 类似，但给回调函数传入了添加了的和删除了的的元素，如果list用`push`, `splice`等更新，请传`{ deep: true }`。
 
 Similar to `watch`, but provides the added and removed elements to the callback function. Pass `{ deep: true }` if the list is updated in place with `push`, `splice`, etc.
 

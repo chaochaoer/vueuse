@@ -4,6 +4,8 @@ category: Animation
 
 # useRafFn
 
+在每个 `requestAnimationFrame` 上调用函数。可控制暂停和恢复。
+
 Call function on every `requestAnimationFrame`. With controls of pausing and resuming.
 
 ## Usage

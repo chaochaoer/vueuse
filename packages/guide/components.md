@@ -80,6 +80,6 @@ You can access return values with `v-slot`:
 </UseDark>
 ```
 
-有关组件样式的详细用法，请参阅每个函数的文档。
+有关组件的详细用法，请参阅每个函数的文档。
 
 Refer to each function's documentation for the detailed usage of component style.

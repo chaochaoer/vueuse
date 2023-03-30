@@ -4,7 +4,7 @@ category: Browser
 
 # useTitle
 
-响应式文档标题
+响应式document title
 
 Reactive document title.
 

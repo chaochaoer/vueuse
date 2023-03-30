@@ -4,19 +4,19 @@ category: Browser
 
 # useBluetooth
 
-响应式 [Web Bluetooth API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API)。提供连接低功耗蓝牙外围设备并与之交互的能力。
+响应式 [Web Bluetooth API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API)。提供连接低功耗蓝牙外设并与之交互的能力。
 
 Reactive [Web Bluetooth API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API). Provides the ability to connect and interact with Bluetooth Low Energy peripherals.
 
-Web Bluetooth API 允许网站使用通用属性配置文件 (GATT) 通过蓝牙 4 无线标准发现设备并与之通信。
+Web Bluetooth API 允许网站使用通用属性配置文件 (GATT) 通过蓝牙 4 无线标准找到设备并与之通信。
 
 The Web Bluetooth API lets websites discover and communicate with devices over the Bluetooth 4 wireless standard using the Generic Attribute Profile (GATT).
 
-注意：它目前在 Android M、Chrome OS、Mac 和 Windows 10 中部分实现。有关浏览器兼容性的完整概述，请参阅[Web Bluetooth API Browser Compatibility](https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API#browser_compatibility)
+注意：目前在 Android M、Chrome OS、Mac 和 Windows 10 中实现了一部分。有关浏览器兼容性的完整概述，请参阅[Web Bluetooth API Browser Compatibility](https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API#browser_compatibility)
 
 N.B. It is currently partially implemented in Android M, Chrome OS, Mac, and Windows 10. For a full overview of browser compatibility please see [Web Bluetooth API Browser Compatibility](https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API#browser_compatibility)
 
-注意：关于蓝牙API规范，有许多需要注意的注意事项。有关设备检测和连接的注意事项，请参阅[Web Bluetooth W3C Draft Report](https://webbluetoothcg.github.io/web-bluetooth/) 。
+注意：关于蓝牙API规范，有许多注意事项。有关设备检测和连接的注意事项，请参阅[Web Bluetooth W3C Draft Report](https://webbluetoothcg.github.io/web-bluetooth/) 。
 
 N.B. There are a number of caveats to be aware of with the web bluetooth API specification. Please refer to the [Web Bluetooth W3C Draft Report](https://webbluetoothcg.github.io/web-bluetooth/) for numerous caveats around device detection and connection.
 
@@ -54,11 +54,11 @@ When the device has paired and is connected, you can then work with the server o
 
 ## 使用电池电量(Usage Battery Level Example)
 
-此示例说明了如何使用 Web 蓝牙 API 读取电池电量，并通过低功耗蓝牙从附近的蓝牙设备电池信息获取通知。
+此示例介绍如何使用 Web Bluetooth API 读取电池电量，并通过低功耗蓝牙从附近的蓝牙设备上获取电池信息。
 
 This sample illustrates the use of the Web Bluetooth API to read battery level and be notified of changes from a nearby Bluetooth Device advertising Battery information with Bluetooth Low Energy.
 
-在这里，我们使用 characteristicvaluechanged 事件侦听器来处理读取电池电量特征值。此事件侦听器也可以选择处理即将到来的通知。
+在这里，我们使用 characteristicvaluechanged 事件侦听器来处理读取电池电量特征值。此事件侦听器也可以处理即将到来的通知。
 
 Here, we use the characteristicvaluechanged event listener to handle reading battery level characteristic value. This event listener will optionally handle upcoming notifications as well.
 

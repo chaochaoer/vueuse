@@ -4,7 +4,7 @@ category: Sensors
 
 # useBattery
 
-响应式 [Battery Status API](https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API)，通常称为 Battery API，提供有关系统电池电量的信息，并让您在电池电量或充电状态发生变化时收到发送的事件通知。这可用于调整您的应用程序的资源使用情况，以减少电池电量不足时的电池消耗，或在电池电量耗尽之前保存更改以防止数据丢失。
+响应式 [Battery Status API](https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API)，更多时候被称之为 Battery API, 提供了有关系统充电级别的信息并提供了通过电池等级或者充电状态的改变提醒用户的事件。这个可以在设备电量低的时候调整应用的资源使用状态，或者在电池用尽前保存应用中的修改以防数据丢失。
 
 Reactive [Battery Status API](https://developer.mozilla.org/en-US/docs/Web/API/Battery_Status_API), more often referred to as the Battery API, provides information about the system's battery charge level and lets you be notified by events that are sent when the battery level or charging status change. This can be used to adjust your app's resource usage to reduce battery drain when the battery is low, or to save changes before the battery runs out in order to prevent data loss.
 
@@ -18,7 +18,7 @@ const { charging, chargingTime, dischargingTime, level } = useBattery()
 
 | State           | Type      | Description                                                       |
 | --------------- | --------- | ----------------------------------------------------------------- |
-| charging        | `Boolean` | 如果设备当前正在充电。                           |
+| charging        | `Boolean` | 是否设备当前正在充电。                           |
 | chargingTime    | `Number`  | 设备充满电所需的秒数。     |
 | dischargingTime | `Number`  | 距离电池耗电至空需要多少秒。 |
 | level           | `Number`  | 0到1之间的数字，代表系统电量的水平   |
@@ -29,9 +29,9 @@ const { charging, chargingTime, dischargingTime, level } = useBattery()
 
 Our applications normally are not empathetic to battery level, we can make a few adjustments to our applications that will be more friendly to low battery users.
 
-- 触发“暗黑模式”省电主题来来省电。
+- 触发“暗黑模式”省电主题来省电。
 - Trigger a special "dark-mode" battery saver theme settings.
-- 停止在新闻推送自动播放视频。
+- 停止自动播放视频。
 - Stop auto playing videos in news feeds.
 - 禁用一些不重要的后台。
 - Disable some background workers that are not critical.

@@ -5,7 +5,7 @@ related: useVModel
 
 # useVModels
 
-props v-model 简写。可以把它想象成 `toRefs(props)` 但变化也会触发更新。
+props v-model 简写。可以把它想象成 `toRefs(props)`，但变化也会触发更新。
 
 Shorthand for props v-model binding. Think it like `toRefs(props)` but changes will also trigger emit.
 

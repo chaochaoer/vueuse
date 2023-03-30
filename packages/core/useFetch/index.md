@@ -4,9 +4,9 @@ category: Network
 
 # useFetch
 
-响应式 [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API)，提供中止请求、在请求被触发之前拦截请求、在 url 更改时自动重新获取请求以及使用预定义选项创建您自己的请求的能力 `useFetch`。
+响应式 [Fetch API](https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API)，提供中止请求、在请求被触发之前拦截请求、在 url 更改时自动重新获取请求以及使用预定义选项创建您自己的 `useFetch`。
 
-Reactive [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) provides the ability to abort requests, intercept requests before they are fired, automatically refetch requests when the url changes, and create your own `useFetch` with predefined options. 
+Reactive [Fetch API](https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API) provides the ability to abort requests, intercept requests before they are fired, automatically refetch requests when the url changes, and create your own `useFetch` with predefined options. 
 
 <CourseLink href="https://vueschool.io/lessons/vueuse-utilities-usefetch-and-reactify?friend=vueuse">Learn useFetch with this FREE video lesson from Vue School!</CourseLink>
 
@@ -21,7 +21,7 @@ When using with Nuxt 3, this functions will **NOT** be auto imported in favor of
 
 ### 基本使用(Basic Usage)
 
- `useFetch` 只需提供一个 url 即可使用该功能。url可以是字符串，也可以是 `ref`。 `data` 对象将包含请求的结果，`error` 对象将包含所有的错误，`isFetching` 对象表示请求是否正在加载。
+ 只需提供一个 url 给 `useFetch` 函数即可使用该功能。url可以是字符串，也可以是 `ref`。 `data` 对象将包含请求的结果，`error` 对象将包含所有的错误，`isFetching` 对象表示请求是否正在加载。
 
 The `useFetch` function can be used by simply providing a url. The url can be either a string or a `ref`. The `data` object will contain the result of the request, the `error` object will contain any errors, and the `isFetching` object will indicate if the request is loading.
 
@@ -46,7 +46,7 @@ const { isFetching, error, data } = await useFetch(url)
 
 ### 更改 URL 重新获取(Refetching on URL change)
 
-使用 `ref`  作为 url 参数，当 ref 的值更改时，`useFetch` 将自动重新获取请求。
+使用 `ref` 作为 url 参数，当 ref 的值更改时，`useFetch` 将自动触发另一个请求。
 
 Using a `ref` for the url parameter will allow the `useFetch` function to automatically trigger another request when the url is changed.
 

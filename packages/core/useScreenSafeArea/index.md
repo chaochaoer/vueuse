@@ -20,7 +20,7 @@ In order to make the page to be fully rendered in the screen, the additional att
 <meta name='viewport' content='initial-scale=1, viewport-fit=cover'>
 ```
 
-然后我们可以在组件中使用 `useScreenSafeArea`，如下所示:
+然后我们可以在组件中使用 `useScreenSafeArea` ，如下所示:
 
 Then we could use `useScreenSafeArea` in the component as shown below:
 

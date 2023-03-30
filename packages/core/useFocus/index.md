@@ -4,7 +4,7 @@ category: Sensors
 
 # useFocus
 
-响应式跟踪或设置 DOM 元素的焦点状态。状态变化以反映目标元素是否是焦点元素，从外部设置响应值将分别触发 `focus` 和值的 `blur` 事件。
+响应式跟踪或设置 DOM 元素的焦点状态。状态变化以反映目标元素是否是焦点元素，从外部设置响应值为 `true` 和 `false`，将分别触发 `focus` 和 `blur` 事件。
 
 Reactive utility to track or set the focus state of a DOM element. State changes to reflect whether the target element is the focused element. Setting reactive value from the outside will trigger `focus` and `blur` events for `true` and `false` values respectively.
 
@@ -38,7 +38,7 @@ const { focused } = useFocus(target, { initialValue: true })
 
 ## 改变焦点状态(Change focus state)
 
-`focused` 的响应式引用变化将自动触发 `focus` 和`blur` 事件，值分别为`true`和 `false`。你可以利用这个行为作为聚焦目标元素的另一种方式。
+`focused` 的响应式引用设置为`true` 和 `false`，将分别触发 `focus` 和 `blur` 事件。你可以利用这个行为作为聚焦目标元素的另一种方式。
 
 Changes of the `focused` reactive ref will automatically trigger `focus` and `blur` events for `true` and `false` values respectively. You can utilize this behavior to focus the target element as a result of another action (e.g. when a button click as shown below).
 

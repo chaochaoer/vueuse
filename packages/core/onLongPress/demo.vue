@@ -25,7 +25,7 @@ onLongPress(htmlRefOptions, onLongPressCallback, { delay: 1000 })
     长按 (500ms)
   </button>
   <button ref="htmlRefOptions" class="ml-2 button small">
-    长按 (500ms)长按 (1000ms)
+    长按 (1000ms)
   </button>
   <button class="ml-2 button small" @click="reset">
     重置

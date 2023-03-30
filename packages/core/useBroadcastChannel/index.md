@@ -8,13 +8,13 @@ category: Browser
 
 Reactive [BroadcastChannel API](https://developer.mozilla.org/en-US/docs/Web/API/BroadcastChannel). 
 
-组件销毁广播频道自动关闭
+组件销毁，广播频道自动关闭
 
 Closes a broadcast channel automatically component unmounted.
 
-## 使用
+## Usage
 
-BroadcastChannel 接口代理了一个广播频道，可以让指定 origin 下的任意 browsing context 来订阅它。它允许同源的不同浏览器窗口，Tab 页，frame 或者 iframe 下的不同文档之间相互通信。
+BroadcastChannel 接口代理了一个命名频道，可以让指定 origin 下的任意 browsing context 来订阅它。它允许同源的不同浏览器窗口，Tab 页，frame 或者 iframe 下的不同文档之间相互通信。
 
 The BroadcastChannel interface represents a named channel that any browsing 
 context of a given origin can subscribe to. It allows communication between 

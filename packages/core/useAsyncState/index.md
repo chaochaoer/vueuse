@@ -4,7 +4,7 @@ category: State
 
 # useAsyncState
 
-响应式异步状态。不会阻塞setup 函数，在promise完成后，将自动触发。
+响应式获取异步状态。不会阻塞setup 函数，在promise完成后，将自动触发。
 
 Reactive async state. Will not block your setup function and will trigger changes once the promise is ready.
 

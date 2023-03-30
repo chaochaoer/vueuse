@@ -22,9 +22,7 @@ useScriptTag(
 )
 ```
 
-加载的script标签会在组件卸载时自动移除。
-
-script将自动加载在组件上，并在组件卸载时删除。
+组件挂载时 script 自动加载，并在组件卸载时删除。
 
 The script will be automatically loaded on the component mounted and removed when the component on unmounting.
 
