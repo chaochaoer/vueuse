@@ -4,7 +4,7 @@ category: Browser
 
 # useGamepad
 
-Provides reactive bindings for the [Gamepad API](https://developer.mozilla.org/en-US/docs/Web/API/Gamepad_API).
+Provides reactive bindings for the [Gamepad API]( https://developer.mozilla.org/zh-CN/docs/Web/API/Gamepad_API).
 
 ## Usage
 
@@ -59,7 +59,7 @@ onDisconnected((index) => {
 
 ### Vibration
 
-> The Gamepad Haptics API is sparse, so check the [compatibility table](https://developer.mozilla.org/en-US/docs/Web/API/GamepadHapticActuator#browser_compatibility) before using.
+> The Gamepad Haptics API is sparse, so check the [compatibility table]( https://developer.mozilla.org/zh-CN/docs/Web/API/GamepadHapticActuator#browser_compatibility) before using.
 
 ```ts
 const supportsVibration = computed(() => gamepad.hapticActuators.length > 0)

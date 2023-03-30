@@ -4,17 +4,17 @@ category: Browser
 
 # useBluetooth
 
-响应式 [Web Bluetooth API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API)。提供连接低功耗蓝牙外设并与之交互的能力。
+响应式 [Web Bluetooth API]( https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Bluetooth_API)。提供连接低功耗蓝牙外设并与之交互的能力。
 
-Reactive [Web Bluetooth API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API). Provides the ability to connect and interact with Bluetooth Low Energy peripherals.
+Reactive [Web Bluetooth API]( https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Bluetooth_API). Provides the ability to connect and interact with Bluetooth Low Energy peripherals.
 
 Web Bluetooth API 允许网站使用通用属性配置文件 (GATT) 通过蓝牙 4 无线标准找到设备并与之通信。
 
 The Web Bluetooth API lets websites discover and communicate with devices over the Bluetooth 4 wireless standard using the Generic Attribute Profile (GATT).
 
-注意：目前在 Android M、Chrome OS、Mac 和 Windows 10 中实现了一部分。有关浏览器兼容性的完整概述，请参阅[Web Bluetooth API Browser Compatibility](https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API#browser_compatibility)
+注意：目前在 Android M、Chrome OS、Mac 和 Windows 10 中实现了一部分。有关浏览器兼容性的完整概述，请参阅[Web Bluetooth API Browser Compatibility]( https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Bluetooth_API#browser_compatibility)
 
-N.B. It is currently partially implemented in Android M, Chrome OS, Mac, and Windows 10. For a full overview of browser compatibility please see [Web Bluetooth API Browser Compatibility](https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API#browser_compatibility)
+N.B. It is currently partially implemented in Android M, Chrome OS, Mac, and Windows 10. For a full overview of browser compatibility please see [Web Bluetooth API Browser Compatibility]( https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Bluetooth_API#browser_compatibility)
 
 注意：关于蓝牙API规范，有许多注意事项。有关设备检测和连接的注意事项，请参阅[Web Bluetooth W3C Draft Report](https://webbluetoothcg.github.io/web-bluetooth/) 。
 

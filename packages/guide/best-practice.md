@@ -2,7 +2,7 @@
 
 ### 解构（Destructuring）
 
-大部分VueUse的函数都返回一个**refs对象**，你可以使用ES6的对象解构语法 [ES6's object destructure](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)来获取你需要的东西。例如:
+大部分VueUse的函数都返回一个**refs对象**，你可以使用ES6的对象解构语法 [ES6's object destructure]( https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)来获取你需要的东西。例如:
 
 ```ts
 import { useMouse } from '@vueuse/core'

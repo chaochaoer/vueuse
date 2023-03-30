@@ -41,9 +41,9 @@ const color = computed(() => {
 })
 ```
 
-可以使用贝塞尔曲线自定义过渡缓动。以这种方式定义的过渡效果与 [CSS 缓动函数](https://developer.mozilla.org/en-US/docs/Web/CSS/easing-function#easing_functions).相同。
+可以使用贝塞尔曲线自定义过渡缓动。以这种方式定义的过渡效果与 [CSS 缓动函数]( https://developer.mozilla.org/zh-CN/docs/Web/CSS/easing-function#easing_functions).相同。
 
-Transition easing can be customized using cubic bezier curves. Transitions defined this way work the same as [CSS easing functions](https://developer.mozilla.org/en-US/docs/Web/CSS/easing-function#easing_functions).
+Transition easing can be customized using cubic bezier curves. Transitions defined this way work the same as [CSS easing functions]( https://developer.mozilla.org/zh-CN/docs/Web/CSS/easing-function#easing_functions).
 
 ```js
 useTransition(source, {

@@ -28,7 +28,7 @@ watchEffect(() => {
 })
 ```
 
-Check out [all the possible keycodes](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/code/code_values).
+Check out [all the possible keycodes]( https://developer.mozilla.org/zh-CN/docs/Web/API/KeyboardEvent/code/code_values).
 
 ### Combinations
 

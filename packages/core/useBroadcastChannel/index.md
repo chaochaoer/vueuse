@@ -4,9 +4,9 @@ category: Browser
 
 # useBroadcastChannel
 
-响应式 [BroadcastChannel API](https://developer.mozilla.org/en-US/docs/Web/API/BroadcastChannel). 
+响应式 [BroadcastChannel API]( https://developer.mozilla.org/zh-CN/docs/Web/API/BroadcastChannel). 
 
-Reactive [BroadcastChannel API](https://developer.mozilla.org/en-US/docs/Web/API/BroadcastChannel). 
+Reactive [BroadcastChannel API]( https://developer.mozilla.org/zh-CN/docs/Web/API/BroadcastChannel). 
 
 组件销毁，广播频道自动关闭
 

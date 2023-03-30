@@ -51,7 +51,7 @@ export interface MagicKeysInternal {
    * A Set of currently pressed keys,
    * Stores raw keyCodes.
    *
-   * @see https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key
+   * @see  https://developer.mozilla.org/zh-CN/docs/Web/API/KeyboardEvent/key
    */
   current: Set<string>
 }

@@ -18,9 +18,9 @@ onKeyStroke('ArrowDown', (e) => {
 })
 ```
 
-请参阅[此表](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key/Key_Values)了解所有键码。
+请参阅[此表]( https://developer.mozilla.org/zh-CN/docs/Web/API/KeyboardEvent/key/Key_Values)了解所有键码。
 
-See [this table](https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key/Key_Values) for all key codes.
+See [this table]( https://developer.mozilla.org/zh-CN/docs/Web/API/KeyboardEvent/key/Key_Values) for all key codes.
 
 ### 监听多个键(Listen To Multiple Keys)
 

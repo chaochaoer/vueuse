@@ -89,7 +89,7 @@ export interface UseWebNotificationOptions extends WebNotificationOptions, Confi
  * Reactive useWebNotification
  *
  * @see https://vueuse.org/useWebNotification
- * @see https://developer.mozilla.org/en-US/docs/Web/API/notification
+ * @see  https://developer.mozilla.org/zh-CN/docs/Web/API/notification
  * @param title
  * @param defaultOptions of type WebNotificationOptions
  * @param methods of type WebNotificationMethods

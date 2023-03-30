@@ -5,9 +5,9 @@ related: useWebWorkerFn
 
 # useWebWorker
 
-简单的 [Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers) 注册和通信。
+简单的 [Web Workers]( https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Workers_API/Using_web_workers) 注册和通信。
 
-Simple [Web Workers](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers) registration and communication.
+Simple [Web Workers]( https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Workers_API/Using_web_workers) registration and communication.
 
 ## Usage
 

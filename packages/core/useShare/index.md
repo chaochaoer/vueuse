@@ -4,9 +4,9 @@ category: Browser
 
 # useShare
 
-响应式 [Web Share API](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/share)。浏览器提供可以共享文本或文件内容的功能。
+响应式 [Web Share API]( https://developer.mozilla.org/zh-CN/docs/Web/API/Navigator/share)。浏览器提供可以共享文本或文件内容的功能。
 
-Reactive [Web Share API](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/share). The Browser provides features that can share content in text or file.
+Reactive [Web Share API]( https://developer.mozilla.org/zh-CN/docs/Web/API/Navigator/share). The Browser provides features that can share content in text or file.
 
 > `share` 方法必须在用户动作如单击按钮后调用。例如，它不能简单地在页面加载时调用。这有助于防止滥用。
 

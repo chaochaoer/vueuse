@@ -14,7 +14,7 @@ export interface UseFileDialogOptions extends ConfigurableDocument {
   accept?: string
   /**
    * Select the input source for the capture file.
-   * @see [HTMLInputElement Capture](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/capture)
+   * @see [HTMLInputElement Capture]( https://developer.mozilla.org/zh-CN/docs/Web/HTML/Attributes/capture)
    */
   capture?: string
 }

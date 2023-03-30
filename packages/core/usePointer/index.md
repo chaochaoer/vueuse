@@ -4,9 +4,9 @@ category: Sensors
 
 # usePointer
 
-响应式 [指针状态](https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events).
+响应式 [指针状态]( https://developer.mozilla.org/zh-CN/docs/Web/API/Pointer_events).
 
-Reactive [pointer state](https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events).
+Reactive [pointer state]( https://developer.mozilla.org/zh-CN/docs/Web/API/Pointer_events).
 
 ## Basic Usage
 

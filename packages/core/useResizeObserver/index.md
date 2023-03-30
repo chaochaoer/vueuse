@@ -41,4 +41,4 @@ export default {
 </script>
 ```
 
-[ResizeObserver MDN](https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserver)
+[ResizeObserver MDN]( https://developer.mozilla.org/zh-CN/docs/Web/API/ResizeObserver)

@@ -7,7 +7,7 @@ import { defaultDocument } from '../_configurable'
 
 /**
  * Many of the jsdoc definitions here are modified version of the
- * documentation from MDN(https://developer.mozilla.org/en-US/docs/Web/API/HTMLMediaElement)
+ * documentation from MDN( https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLMediaElement)
  */
 
 export interface UseMediaSource {

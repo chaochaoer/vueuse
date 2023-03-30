@@ -41,7 +41,7 @@ const { workerFn, workerStatus, workerTerminate } = useWebWorkerFn(
 
 在开始使用此函数之前，我们建议您阅读Web Worker文档。
 
-Before you start using this function, we suggest you read the [Web Worker](https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers) documentation.
+Before you start using this function, we suggest you read the [Web Worker]( https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Workers_API/Using_web_workers) documentation.
 
 ## Credit
 

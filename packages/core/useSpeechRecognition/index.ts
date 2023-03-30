@@ -35,7 +35,7 @@ export interface UseSpeechRecognitionOptions extends ConfigurableWindow {
  * Reactive SpeechRecognition.
  *
  * @see https://vueuse.org/useSpeechRecognition
- * @see https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition SpeechRecognition
+ * @see  https://developer.mozilla.org/zh-CN/docs/Web/API/SpeechRecognition SpeechRecognition
  * @param options
  */
 export function useSpeechRecognition(options: UseSpeechRecognitionOptions = {}) {

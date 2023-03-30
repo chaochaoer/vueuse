@@ -11,7 +11,7 @@ export interface UseRafFnCallbackArguments {
   delta: number
 
   /**
-   * Time elapsed since the creation of the web page. See {@link https://developer.mozilla.org/en-US/docs/Web/API/DOMHighResTimeStamp#the_time_origin Time origin}.
+   * Time elapsed since the creation of the web page. See {@link  https://developer.mozilla.org/zh-CN/docs/Web/API/DOMHighResTimeStamp#the_time_origin Time origin}.
    */
   timestamp: DOMHighResTimeStamp
 }

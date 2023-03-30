@@ -3,9 +3,9 @@ category: Browser
 ---
 
 # useEventListener
-轻松使用事件监听。在挂载时使用 [addEventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)  注册，在卸载时自动使用 [removeEventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/removeEventListener) 。
+轻松使用事件监听。在挂载时使用 [addEventListener]( https://developer.mozilla.org/zh-CN/docs/Web/API/EventTarget/addEventListener)  注册，在卸载时自动使用 [removeEventListener]( https://developer.mozilla.org/zh-CN/docs/Web/API/EventTarget/removeEventListener) 。
 
-Use EventListener with ease. Register using [addEventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) on mounted, and [removeEventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/removeEventListener) automatically on unmounted.
+Use EventListener with ease. Register using [addEventListener]( https://developer.mozilla.org/zh-CN/docs/Web/API/EventTarget/addEventListener) on mounted, and [removeEventListener]( https://developer.mozilla.org/zh-CN/docs/Web/API/EventTarget/removeEventListener) automatically on unmounted.
 
 ## Usage
 

@@ -4,9 +4,9 @@ category: Network
 
 # useEventSource
 
-使用[EventSource](https://developer.mozilla.org/en-US/docs/Web/API/EventSource) 或 [Server-Sent-Events](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events) 实例会对 HTTP 服务开启一个持久化的连接，以 text/event-stream 格式发送事件。
+使用[EventSource]( https://developer.mozilla.org/zh-CN/docs/Web/API/EventSource) 或 [Server-Sent-Events]( https://developer.mozilla.org/zh-CN/docs/Web/API/Server-sent_events) 实例会对 HTTP 服务开启一个持久化的连接，以 text/event-stream 格式发送事件。
 
-An [EventSource](https://developer.mozilla.org/en-US/docs/Web/API/EventSource) or [Server-Sent-Events](https://developer.mozilla.org/en-US/docs/Web/API/Server-sent_events) instance opens a persistent connection to an HTTP server, which sends events in text/event-stream format.
+An [EventSource]( https://developer.mozilla.org/zh-CN/docs/Web/API/EventSource) or [Server-Sent-Events]( https://developer.mozilla.org/zh-CN/docs/Web/API/Server-sent_events) instance opens a persistent connection to an HTTP server, which sends events in text/event-stream format.
 
 ## Usage
 

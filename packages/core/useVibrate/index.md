@@ -4,9 +4,9 @@ category: Browser
 
 # useVibrate
 
-响应式 [Vibration API](https://developer.mozilla.org/en-US/docs/Web/API/Vibration_API)
+响应式 [Vibration API]( https://developer.mozilla.org/zh-CN/docs/Web/API/Vibration_API)
 
-Reactive [Vibration API](https://developer.mozilla.org/en-US/docs/Web/API/Vibration_API)
+Reactive [Vibration API]( https://developer.mozilla.org/zh-CN/docs/Web/API/Vibration_API)
 
 大多数现代移动设备包括振动硬件，其允许软件代码通过使设备摇动来向用户提供物理反馈。
 

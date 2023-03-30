@@ -7,7 +7,7 @@ import { useSupported } from '../useSupported'
 
 /**
  * window.showOpenFilePicker parameters
- * @see https://developer.mozilla.org/en-US/docs/Web/API/window/showOpenFilePicker#parameters
+ * @see  https://developer.mozilla.org/zh-CN/docs/Web/API/window/showOpenFilePicker#parameters
  */
 export interface FileSystemAccessShowOpenFileOptions {
   multiple?: boolean
@@ -20,7 +20,7 @@ export interface FileSystemAccessShowOpenFileOptions {
 
 /**
  * window.showSaveFilePicker parameters
- * @see https://developer.mozilla.org/en-US/docs/Web/API/window/showSaveFilePicker#parameters
+ * @see  https://developer.mozilla.org/zh-CN/docs/Web/API/window/showSaveFilePicker#parameters
  */
 export interface FileSystemAccessShowSaveFileOptions {
   suggestedName?: string
@@ -33,7 +33,7 @@ export interface FileSystemAccessShowSaveFileOptions {
 
 /**
  * FileHandle
- * @see https://developer.mozilla.org/en-US/docs/Web/API/FileSystemFileHandle
+ * @see  https://developer.mozilla.org/zh-CN/docs/Web/API/FileSystemFileHandle
  */
 export interface FileSystemFileHandle {
   getFile: () => Promise<File>
@@ -41,26 +41,26 @@ export interface FileSystemFileHandle {
 }
 
 /**
- * @see https://developer.mozilla.org/en-US/docs/Web/API/FileSystemWritableFileStream
+ * @see  https://developer.mozilla.org/zh-CN/docs/Web/API/FileSystemWritableFileStream
  */
 interface FileSystemWritableFileStream extends WritableStream {
   /**
-   * @see https://developer.mozilla.org/en-US/docs/Web/API/FileSystemWritableFileStream/write
+   * @see  https://developer.mozilla.org/zh-CN/docs/Web/API/FileSystemWritableFileStream/write
    */
   write: FileSystemWritableFileStreamWrite
   /**
-   * @see https://developer.mozilla.org/en-US/docs/Web/API/FileSystemWritableFileStream/seek
+   * @see  https://developer.mozilla.org/zh-CN/docs/Web/API/FileSystemWritableFileStream/seek
    */
   seek: (position: number) => Promise<void>
   /**
-   * @see https://developer.mozilla.org/en-US/docs/Web/API/FileSystemWritableFileStream/truncate
+   * @see  https://developer.mozilla.org/zh-CN/docs/Web/API/FileSystemWritableFileStream/truncate
    */
   truncate: (size: number) => Promise<void>
 }
 
 /**
  * FileStream.write
- * @see https://developer.mozilla.org/en-US/docs/Web/API/FileSystemWritableFileStream/write
+ * @see  https://developer.mozilla.org/zh-CN/docs/Web/API/FileSystemWritableFileStream/write
  */
 interface FileSystemWritableFileStreamWrite {
   (data: string | BufferSource | Blob): Promise<void>
@@ -71,7 +71,7 @@ interface FileSystemWritableFileStreamWrite {
 
 /**
  * FileStream.write
- * @see https://developer.mozilla.org/en-US/docs/Web/API/FileSystemWritableFileStream/write
+ * @see  https://developer.mozilla.org/zh-CN/docs/Web/API/FileSystemWritableFileStream/write
  */
 export type FileSystemAccessWindow = Window & {
   showSaveFilePicker: (options: FileSystemAccessShowSaveFileOptions) => Promise<FileSystemFileHandle>

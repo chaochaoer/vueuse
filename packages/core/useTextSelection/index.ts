@@ -14,7 +14,7 @@ function getRangesFromSelection(selection: Selection) {
 }
 
 /**
- * Reactively track user text selection based on [`Window.getSelection`](https://developer.mozilla.org/en-US/docs/Web/API/Window/getSelection).
+ * Reactively track user text selection based on [`Window.getSelection`]( https://developer.mozilla.org/zh-CN/docs/Web/API/Window/getSelection).
  *
  * @see https://vueuse.org/useTextSelection
  */

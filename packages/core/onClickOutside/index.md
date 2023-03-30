@@ -35,9 +35,9 @@ export default {
 }
 </script>
 ```
-> 此功能使用了[Event.composedPath()](https://developer.mozilla.org/en-US/docs/Web/API/Event/composedPath)，IE 11、Edge 18 及更低版本是不支持的这个方法的。如果您的目标是这些浏览器，我们建议您将[此代码片段](https://gist.github.com/sibbng/13e83b1dd1b733317ce0130ef07d4efd)包含在您的项目中。
+> 此功能使用了[Event.composedPath()]( https://developer.mozilla.org/zh-CN/docs/Web/API/Event/composedPath)，IE 11、Edge 18 及更低版本是不支持的这个方法的。如果您的目标是这些浏览器，我们建议您将[此代码片段](https://gist.github.com/sibbng/13e83b1dd1b733317ce0130ef07d4efd)包含在您的项目中。
 
-> This function uses [Event.composedPath()](https://developer.mozilla.org/en-US/docs/Web/API/Event/composedPath) which is NOT supported by IE 11, Edge 18 and below. If you are targeting these browsers, we recommend you to include [this code snippet](https://gist.github.com/sibbng/13e83b1dd1b733317ce0130ef07d4efd) on your project.
+> This function uses [Event.composedPath()]( https://developer.mozilla.org/zh-CN/docs/Web/API/Event/composedPath) which is NOT supported by IE 11, Edge 18 and below. If you are targeting these browsers, we recommend you to include [this code snippet](https://gist.github.com/sibbng/13e83b1dd1b733317ce0130ef07d4efd) on your project.
 
 ## 使用组件(Component Usage)
 

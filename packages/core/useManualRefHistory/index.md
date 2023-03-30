@@ -60,9 +60,9 @@ commit()
 
 To use a full featured or custom clone function, you can set up via the `dump` options.
 
-例如使用 [structuredClone](https://developer.mozilla.org/en-US/docs/Web/API/structuredClone):
+例如使用 [structuredClone]( https://developer.mozilla.org/zh-CN/docs/Web/API/structuredClone):
 
-For example, using [structuredClone](https://developer.mozilla.org/en-US/docs/Web/API/structuredClone):
+For example, using [structuredClone]( https://developer.mozilla.org/zh-CN/docs/Web/API/structuredClone):
 
 ```ts
 import { useManualRefHistory } from '@vueuse/core'

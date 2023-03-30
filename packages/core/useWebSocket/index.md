@@ -4,9 +4,9 @@ category: Network
 
 # useWebSocket
 
-响应式 [WebSocket](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket/WebSocket) .
+响应式 [WebSocket]( https://developer.mozilla.org/zh-CN/docs/Web/API/WebSocket/WebSocket) .
 
-Reactive [WebSocket](https://developer.mozilla.org/en-US/docs/Web/API/WebSocket/WebSocket) client.
+Reactive [WebSocket]( https://developer.mozilla.org/zh-CN/docs/Web/API/WebSocket/WebSocket) client.
 
 ## Usage
 

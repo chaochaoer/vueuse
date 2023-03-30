@@ -4,9 +4,9 @@ category: Browser
 
 # usePreferredColorScheme
 
-响应式 [prefers-color-scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) 
+响应式 [prefers-color-scheme]( https://developer.mozilla.org/zh-CN/docs/Web/CSS/@media/prefers-color-scheme) 
 
-Reactive [prefers-color-scheme](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme) media query.
+Reactive [prefers-color-scheme]( https://developer.mozilla.org/zh-CN/docs/Web/CSS/@media/prefers-color-scheme) media query.
 
 ## Usage
 

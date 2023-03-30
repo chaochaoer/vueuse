@@ -4,9 +4,9 @@ category: Sensors
 
 # useTextSelection
 
-基于 [`Window.getSelection`](https://developer.mozilla.org/en-US/docs/Web/API/Window/getSelection) 响应式跟踪用户文本选择
+基于 [`Window.getSelection`]( https://developer.mozilla.org/zh-CN/docs/Web/API/Window/getSelection) 响应式跟踪用户文本选择
 
-Reactively track user text selection based on [`Window.getSelection`](https://developer.mozilla.org/en-US/docs/Web/API/Window/getSelection).
+Reactively track user text selection based on [`Window.getSelection`]( https://developer.mozilla.org/zh-CN/docs/Web/API/Window/getSelection).
 
 ## Usage
 

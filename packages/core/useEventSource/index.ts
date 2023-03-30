@@ -9,7 +9,7 @@ export type UseEventSourceOptions = EventSourceInit
  * Reactive wrapper for EventSource.
  *
  * @see https://vueuse.org/useEventSource
- * @see https://developer.mozilla.org/en-US/docs/Web/API/EventSource/EventSource EventSource
+ * @see  https://developer.mozilla.org/zh-CN/docs/Web/API/EventSource/EventSource EventSource
  * @param url
  * @param events
  * @param options

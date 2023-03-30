@@ -1,6 +1,10 @@
 # 关于本站
 
-本站（www.vueusejs.com）并非官方文档。本站并非只有翻译，也保留了原网站（vueuse.org）的原文，可以中英对照，方便理解。
+本站（www.vueusejs.com）并非官方文档。本站保留了原站（vueuse.org）的原文，可以中英对照，方便理解。
+
+# 注意
+
+原站（vueuse.org）很多扩展内容都链接到了MDN（https://developer.mozilla.org/en-US/XXX）， 这个是英文版的MDN网站。为了方便大家阅读，已将 https://developer.mozilla.org/en-US/XXX 全部替换成了 https://developer.mozilla.org/zh-CN/XXX ，所以有些时候由于没有对应的MDN中文文档，会导致跳转到MDN会显示404或者替他问题，不用担心，将链接中的zh-CN替换en-US即可，成望周知。
 
 # 使用说明
 
@@ -32,4 +36,3 @@ Taking `useTitle` as an example:
 ```
 上面翻译，下面原文
 
-# 有时间会翻译，计划尽快翻译完。。。

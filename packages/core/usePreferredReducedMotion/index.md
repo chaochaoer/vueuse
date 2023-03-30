@@ -4,9 +4,9 @@ category: Browser
 
 # usePreferredReducedMotion
 
-响应式[prefers-reduced-motion](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion)
+响应式[prefers-reduced-motion]( https://developer.mozilla.org/zh-CN/docs/Web/CSS/@media/prefers-reduced-motion)
 
-Reactive [prefers-reduced-motion](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion) media query.
+Reactive [prefers-reduced-motion]( https://developer.mozilla.org/zh-CN/docs/Web/CSS/@media/prefers-reduced-motion) media query.
 
 ## Usage
 
