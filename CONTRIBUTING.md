@@ -1,16 +1,16 @@
 # 贡献(Contributing)
 
-感谢您对这个项目感兴趣！
+感谢您有兴趣为这个项目做出贡献！
 
 Thanks for being interested in contributing to this project!
 
-> **警告**: **⚠️ 放缓新函数更新**
+> **警告**: **⚠️ 放缓新函数**
 
 > **Warning**: **⚠️ Slowing down new functions**
 
 >
 
-> 由于VueUse用户不断增长，我们收到了大量的feature requests和PR。维护这个项目变得越来越难，最近有点超出了我们的能力。将来，**我们可能会放慢采纳新特性的速度，优先考虑现有功能的稳定性和质量。VueUse的新函数可能不被接受**。如果你有了一些新的想法，我们建议你先把它们放在你的代码库中，而不是直接提交给VueUse。你可以迭代几次，看看怎样满足你的需求，以及如何将它们泛化。如果你 **真的** 认为它们对社区有用，你可以提PR并附带你的使用场景，我们仍然非常愿意倾听和讨论。谢谢您的理解。
+> 由于VueUse用户不断增长，我们收到了大量的feature requests和PR。维护这个项目变得越来越难，最近有点超出了我们的能力。将来，**我们可能会放慢采纳新特性的速度，优先考虑现有功能的稳定性和质量。向 VueUse 提出的新函数可能不被接受**。如果你有了一些新的想法，我们建议你先把它们放在你的代码库中，而不是直接提交给VueUse。你可以迭代几次，看看怎样满足你的需求，以及如何将它们泛化。如果你 **真的** 认为它们对社区有用，你可以提PR并附带你的使用场景，我们仍然非常愿意倾听和讨论。谢谢您的理解。
 
 > Due to the growing audience of VueUse, we received a huge amount of feature requests and pull requests. It's become harder and harder and recently a bit beyond our capacity to maintain the project. In the near future, **we could like slowing down on accepting new features and prioritize the stability and quality of existing functions. New functions to VueUse may not be accepted**. If you come up some new ideas, we advice you to have them in your codebase first instead of proposing to VueUse. You may iterate them a few time and see how them suite your needs and how them can be generalized. If you **really** believe they are useful to the community, you can create PR with your usercases, we are still happy to hear and discuss. Thank you for your understanding.
 
@@ -26,7 +26,7 @@ Clone this repo to your local machine and install the dependencies.
 pnpm install
 ```
 
-使用VitePress进行快速开发。你可以在本地启动它
+我们使用 VitePress 进行快速开发和文档编制。您可以通过以下方式在本地启动它
 
 We use VitePress for rapid development and documenting. You can start it locally by
 
@@ -54,7 +54,7 @@ There are some notes for adding new functions
 - The implementation should be placed under `packages/core` as a folder and exposing in `index.ts`
 - 在 `core` 包中，尽量不要引入第三方依赖项，因为这个包应该尽可能轻量。
 - In the `core` package, try not to introduce 3rd-party dependencies as this package is aimed to be as lightweight as possible.
-- 如果您想引入第三方依赖，请放入@vueuse/integrations或创建一个新的插件。
+- 如果您想引入第三方依赖，请向 @vueuse/integrations 提交代码，或创建一个新的 add-on。
 - If you'd like to introduce 3rd-party dependencies, please contribute to @vueuse/integrations or create a new add-on.
 - 你可以在 `packages/core/_template/` 下找到函数的模板，详细信息见 [Function Folder](#function-folder) 
 - You can find the function template under `packages/core/_template/`, details explained in the [Function Folder](#function-folder) section.
@@ -83,16 +83,16 @@ New add-ons are greatly welcome!
 
 ### Monorepo
 
-使用monorepo进行包管理
+我们对多个包使用 monorepo
 
 We use monorepo for multiple packages
 
 ```
 packages
-  shared/         - shared utils across packages
-  core/           - the core package
+  shared/         - 跨包共享工具函数
+  core/           - 核心包
   firebase/       - the Firebase add-on
-  [...addons]/    - add-ons named
+  [...addons]/    - add-ons 的名字
 ```
 
 ### 函数文件夹(Function Folder)

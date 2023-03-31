@@ -44,18 +44,17 @@ motionControl.resume()
 // motion updates resumed
 ```
 
-### 触发时机(Reactive Timing)
+### 响应式时机(Reactive Timing)
 
 一般情况下，VueUse的函数会遵守响应式系统默认的[flush timing](https://vuejs.org/guide/essentials/watchers.html#callback-flush-timing) 。
 
 VueUse's functions follow Vue's reactivity system defaults for [flush timing](https://vuejs.org/guide/essentials/watchers.html#callback-flush-timing) where possible.
 
- <!-- TODO -->
-对于类 `watch` 类的组合项(例如: `pausableWatch`, `whenever`, `useStorage`, `useRefHistory` )默认是' {flush: 'pre'}'。这意味着它们将缓存无效的副作用，并异步刷新它们。这样一来，在同一个“tick”中产生多个状态变化时，不会出现多个不必要的重复调用。
+对于类 `watch` 类的组合函数(例如: `pausableWatch`, `whenever`, `useStorage`, `useRefHistory` )默认是` {flush: 'pre'}`。这意味着它们将缓存无效的副作用函数，并异步更新它们。这样一来，在同一个“tick”中产生多个状态变化时，不会出现多个不必要的重复调用。
 
 For `watch`-like composables (e.g. `pausableWatch`, `whenever`, `useStorage`, `useRefHistory`) the default is `{ flush: 'pre' }`. Which means they will buffer invalidated effects and flush them asynchronously. This avoids unnecessary duplicate invocation when there are multiple state mutations happening in the same "tick".
 
-与`watch`相同的配置方式，VueUse允许你通过传递 `flush` 选项来控制刷新时机
+与`watch`相同的配置方式，VueUse允许你通过传递 `flush` 选项来控制函数执行的时机
 
 In the same way as with `watch`, VueUse allows you to configure the timing by passing the `flush` option:
 
@@ -70,11 +69,11 @@ const { pause, resume } = pausableWatch(
 ```
 **flush option (default: `'pre'`)**
 
-- `'pre'`: 缓存副作用函数，并在渲染前刷新他们。
+- `'pre'`: 在同一个'tick'中缓冲无效的副作用函数调用并在渲染之前更新它们
 - `'pre'`: buffers invalidated effects in the same 'tick' and flushes them before rendering
-- `'post'`: async类似于'pre'，但在组件更新后触发，以便能访问更新后的DOM
+- `'post'`: 像'pre'一样是异步的，但在组件更新后触发，因此您可以访问更新后的 DOM
 - `'post'`: async like 'pre' but fires after component updates so you can access the updated DOM
-- `'sync'`: 强制同步触发。
+- `'sync'`: 强制副作用函数始终同步触发
 - `'sync'`: forces the effect to always trigger synchronously
 
 **Note:** For `computed`-like composables (e.g. `syncRef`, `controlledComputed`), when flush timing is configurable, the default is changed to `{ flush: 'sync' }` to align them with the way computed refs works in Vue.

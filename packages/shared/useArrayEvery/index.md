@@ -4,6 +4,8 @@ category: Array
 
 # useArrayEvery
 
+响应式 `Array.every`
+
 Reactive `Array.every`
 
 ## Usage
